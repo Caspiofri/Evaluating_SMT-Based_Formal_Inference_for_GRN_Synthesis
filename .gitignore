@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+.ipynb_checkpoints/
+
+# RE:IN engine (lives on VM only)
+vm/engine_v2_runner.fs
+vm/engine_v2_runner.exe
+*.dll
+
+# Engine & pipeline runtime outputs
+analysis_data.json
+work/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Archived / superseded material (kept locally on VM, not submitted)
+_archive/

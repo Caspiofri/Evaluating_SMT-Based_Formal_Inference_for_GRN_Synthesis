@@ -1,0 +1,113 @@
+matinput(0..17);matubi(0..17);pmar(0..17);hesc(0..17);ets(0..17);
+alx(0..17);tbr(0..17);
+matinput pmar positive optional;
+pmar hesc negative optional;
+matubi hesc positive optional;
+hesc ets negative optional;
+hesc alx negative optional;
+hesc tbr negative optional;
+matubi ets positive optional;
+ets alx positive optional;
+alx tbr positive optional;
+ets tbr positive optional;
+
+
+
+//Experiment one f1 chart
+
+
+#Experimentone[0] |=  $f11 "intial signal for gatae";
+#Experimentone[1] |=  $f12 " end dn signal on gcm";
+#Experimentone[2] |=  $f13 " end dn signal on gcm";
+#Experimentone[3] |=  $f14 " end dn signal on gcm";
+#Experimentone[4] |=  $f15 " end dn signal on gcm";
+#Experimentone[5] |=  $f16 " end dn signal on gcm";
+#Experimentone[6] |=  $f17 " end dn signal on gcm";
+
+
+
+
+$f10 :=
+{
+ matinput = 0 and
+matubi = 0 and
+pmar = 0 and
+hesc = 0 and
+ets = 0 and
+alx = 0 and
+tbr = 0 
+};
+$f11 :=
+{
+matinput = 1 and
+matubi = 1 and
+pmar = 0 and
+hesc = 0 and
+ets = 0 and
+alx = 0 and
+tbr = 0 
+};
+$f12 :=
+{
+matinput = 1 and
+matubi = 1 and
+pmar = 1 and
+hesc = 1 and
+ets = 1 and
+alx = 0 and
+tbr = 0 
+};
+$f13 :=
+{
+matinput = 1 and
+matubi = 1 and
+pmar = 1 and
+hesc = 0 and
+ets = 0 and
+alx = 0 and
+tbr = 0  
+};
+$f14 :=
+{
+matinput = 1 and
+matubi = 1 and
+pmar = 1 and
+hesc = 0 and
+ets = 1 and
+alx = 0 and
+tbr = 0 
+
+};
+$f15 :=
+{
+matinput = 1 and
+matubi = 1 and
+pmar = 1 and
+hesc = 0 and
+ets = 1 and
+alx = 1 and
+tbr = 1 
+
+};
+$f16 :=
+{
+matinput = 1 and
+matubi = 1 and
+pmar = 1 and
+hesc = 0 and
+ets = 1 and
+alx = 1 and
+tbr = 1 
+
+};
+$f17 :=
+{
+matinput = 1 and
+matubi = 1 and
+pmar = 1 and
+hesc = 0 and
+ets = 1 and
+alx = 1 and
+tbr = 1 
+
+};

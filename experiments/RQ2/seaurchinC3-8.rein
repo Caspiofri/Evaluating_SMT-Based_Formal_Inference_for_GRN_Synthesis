@@ -1,0 +1,126 @@
+dngate(0..17);ets(0..17);alx(0..17);dri(0..17);sm50(0..17);dnnode1(0..17);
+dnnode2(0..17);dnnode3(0..17);dnnode4(0..17);dnnode5(0..17);dnnode6(0..17);
+dngate ets positive optional;
+ets alx positive optional;
+ets dri positive optional;
+ets sm50 positive optional;
+alx dri positive optional;
+alx sm50 positive optional;
+dri sm50 positive optional;
+dnnode1 dnnode2 positive;
+dnnode2 dnnode3 positive;
+dnnode3 dnnode4 positive;
+dnnode4 dnnode5 positive;
+dnnode5 dngate positive;
+
+
+
+
+
+
+
+
+#Experimentone[0] |=  $c11 "intial signal for gatae";
+#Experimentone[1] |=  $c12 " end dn signal on gcm";
+#Experimentone[2] |=  $c13 " end dn signal on gcm";
+#Experimentone[3] |=  $c14 " end dn signal on gcm";
+#Experimentone[4] |=  $c15 " end dn signal on gcm";
+#Experimentone[5] |=  $c16 " end dn signal on gcm";
+#Experimentone[6] |=  $c17 " end dn signal on gcm";
+
+
+
+
+
+$c10 :=
+{
+ dngate = 0 and
+ets = 0 and
+alx = 0 and
+dri = 0 and
+sm50 = 0 
+};
+$c11 :=
+{
+dngate = 1 and
+ets = 0 and
+alx = 0 and
+dri = 0 and
+sm50 = 0 and
+dnnode1 = 1 and
+dnnode2 = 1 and
+dnnode3 = 1 and
+dnnode4 = 1 and
+dnnode5 = 1
+
+};
+$c12 :=
+{
+dngate = 1 and
+ets = 1 and
+alx = 0 and
+dri = 0 and
+sm50 = 0 
+
+};
+$c13 :=
+{
+dngate = 1 and
+ets = 1 and
+alx = 1 and
+dri = 0 and
+sm50 = 0 
+
+};
+$c14 :=
+{
+dngate = 1 and
+ets = 1 and
+alx = 1 and
+dri = 1 and
+sm50 = 0 
+
+
+};
+$c15 :=
+{
+dngate = 1 and
+ets = 1 and
+alx = 1 and
+dri = 1 and
+sm50 = 1 
+
+};
+$c16 :=
+{
+dngate = 1 and
+ets = 1 and
+alx = 1 and
+dri = 1 and
+sm50 = 1 
+
+
+};
+$c17 :=
+{
+dngate = 0 and
+ets = 1 and
+alx = 1 and
+dri = 1 and
+sm50 = 1 
+
+};
+$c18 :=
+{
+dngate = 0 and
+ets = 0 and
+alx = 1 and
+dri = 1 and
+sm50 = 1 
+
+};
+
+
+
+
+

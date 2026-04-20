@@ -1,0 +1,70 @@
+inputA(0..17);inputB(0..17);A(0..17);B(0..17);C(0..17);
+inputA A positive optional;
+A B positive optional;
+A C positive optional;
+B C negative optional;
+inputB B positive optional;
+
+
+
+
+
+//Experiment one D1 chart
+
+
+#Experimentone[0] |=  $d11 "intial signal for gatae";
+#Experimentone[1] |=  $d12 " end dn signal on gcm";
+#Experimentone[2] |=  $d13 " end dn signal on gcm";
+#Experimentone[3] |=  $d14 " end dn signal on gcm";
+#Experimentone[4] |=  $d15 " end dn signal on gcm";
+
+$a10 :=
+{
+ A = 0 and
+B = 0 and
+C = 0 and
+inputA = 0 and
+inputB = 0 
+};
+$d11 :=
+{
+A = 0 and
+B = 0 and
+C = 0 and
+inputA = 1 and
+inputB = 0 
+};
+$d12 :=
+{
+A = 1 and
+B = 0 and
+C = 0 and
+inputA = 1 and
+inputB = 0 
+};
+$d13 :=
+{
+A = 1 and
+B = 0 and
+C = 1 and
+inputA = 1 and
+inputB = 0 
+};
+$d14 :=
+{
+A = 1 and
+B = 0 and
+C = 1 and
+inputA = 1 and
+inputB = 0 
+
+};
+$d15 :=
+{
+A = 1 and
+B = 0 and
+C = 1 and
+inputA = 1 and
+inputB = 0  
+
+};

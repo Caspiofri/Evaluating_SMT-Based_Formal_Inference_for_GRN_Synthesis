@@ -1,0 +1,44 @@
+Signal(0..17); TF1(0..17); TF2(0..17); Target(0..17);
+
+Signal TF1    positive optional;
+TF1    TF2    positive optional;
+TF2    Target positive optional;
+Signal Signal positive optional;
+TF1    Target positive optional;
+
+#CascadeExp[0] |= $State_t0 "signal fires alone";
+#CascadeExp[1] |= $State_t1 "TF1 activates, signal off";
+#CascadeExp[2] |= $State_t2 "TF2 activates, TF1 off";
+#CascadeExp[3] |= $State_t3 "Target activates, cascade complete";
+
+$State_t0 :=
+{
+  Signal = 1 and
+  TF1    = 0 and
+  TF2    = 0 and
+  Target = 0
+};
+
+$State_t1 :=
+{
+  Signal = 0 and
+  TF1    = 1 and
+  TF2    = 0 and
+  Target = 0
+};
+
+$State_t2 :=
+{
+  Signal = 0 and
+  TF1    = 0 and
+  TF2    = 1 and
+  Target = 0
+};
+
+$State_t3 :=
+{
+  Signal = 0 and
+  TF1    = 0 and
+  TF2    = 0 and
+  Target = 1
+};

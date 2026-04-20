@@ -1,0 +1,286 @@
+model_name,node_count,num_input_nodes,is_boolean,has_illegal_characters,status,edge_density,max_in_degree,avg_regulators_per_node,has_feedback_loop,experiment_assignment,selection_reason
+[id-001]__[var-302]__[in-19]__[SIGNALING-IN-MACROPHAGE-ACTIVATION]/model.aeon,321,19,TRUE,FALSE,Exclude,0.005,10,1.61,TRUE,none,Excluded: too large.
+[id-002]__[var-130]__[in-9]__[SIGNAL-TRANSDUCTION-IN-FIBROBLASTS]/model.aeon,136,7,TRUE,FALSE,Exclude,0.0245,11,3.31,TRUE,none,Excluded: too large.
+[id-003]__[var-19]__[in-1]__[MAMMALIAN-CELL-CYCLE]/model.aeon,20,1,TRUE,FALSE,Include,0.1316,5,2.5,TRUE,E2_bin_B,"20-gene sparse network with 1 input nodes, max in-degree of 5, and with feedback loops — suitable for E2_bin_B."
+[id-004]__[var-225]__[in-22]__[ERBB-RECEPTOR-SIGNALING]/model.aeon,244,21,TRUE,FALSE,Exclude,0.0163,27,3.96,TRUE,none,Excluded: too large.
+[id-005]__[var-28]__[in-0]__[FA-BRCA-PATHWAY]/model.aeon,28,0,TRUE,FALSE,Include,0.1548,7,4.18,TRUE,E2_bin_C,"28-gene dense network with 0 input nodes, max in-degree of 7, and with feedback loops — suitable for E2_bin_C."
+[id-006]__[var-62]__[in-6]__[HGF-SIGNALING-IN-KERATINOCYTES]/model.aeon,68,6,TRUE,FALSE,Exclude,0.0226,4,1.51,TRUE,none,Excluded: too large.
+[id-007]__[var-5]__[in-0]__[CORTICAL-AREA-DEVELOPMENT]/model.aeon,5,0,TRUE,FALSE,Include,0.7,4,2.8,TRUE,E1_candidate | E2_bin_A,"5-gene dense network with 0 input nodes, max in-degree of 4, and with feedback loops — suitable for E1_candidate, E2_bin_A."
+[id-008]__[var-25]__[in-3]__[DEATH-RECEPTOR-SIGNALING]/model.aeon,28,3,TRUE,FALSE,Include,0.0595,4,1.61,TRUE,E2_bin_C,"28-gene sparse network with 3 input nodes, max in-degree of 4, and with feedback loops — suitable for E2_bin_C."
+[id-009]__[var-60]__[in-13]__[YEAST-APOPTOSIS]/model.aeon,73,13,TRUE,FALSE,Exclude,0.019,12,1.37,TRUE,none,Excluded: too large.
+[id-010]__[var-13]__[in-2]__[CARDIAC-DEVELOPMENT]/model.aeon,15,2,TRUE,FALSE,Include,0.1667,7,2.33,TRUE,E2_bin_B,"15-gene dense network with 2 input nodes, max in-degree of 7, and with feedback loops — suitable for E2_bin_B."
+[id-011]__[var-40]__[in-4]__[GUARD-CELL-ABSCISIC-ACID-SIGNALING]/model.aeon,43,4,TRUE,FALSE,Exclude,0.0382,5,1.6,TRUE,none,Excluded: too large.
+[id-012]__[var-94]__[in-7]__[T-CELL-RECEPTOR-SIGNALING]/model.aeon,101,7,TRUE,FALSE,Exclude,0.0156,6,1.56,TRUE,none,Excluded: too large.
+[id-013]__[var-32]__[in-2]__[CHOLESTEROL-REGULATORY-PATHWAY]/model.aeon,34,2,TRUE,FALSE,Include,0.0365,3,1.21,TRUE,E2_bin_D,"34-gene sparse network with 2 input nodes, max in-degree of 3, and with feedback loops — suitable for E2_bin_D."
+[id-014]__[var-54]__[in-7]__[T-LGL-SURVIVAL-NETWORK-2008]/model.aeon,61,7,TRUE,FALSE,Exclude,0.0527,7,3.16,TRUE,none,Excluded: too large.
+[id-015]__[var-14]__[in-2]__[NEUROTRANSMITTER-SIGNALING-PATHWAY]/model.aeon,16,2,TRUE,FALSE,Include,0.0833,3,1.25,TRUE,E2_bin_B,"16-gene sparse network with 2 input nodes, max in-degree of 3, and with feedback loops — suitable for E2_bin_B."
+[id-016]__[var-104]__[in-14]__[IL-1-SIGNALING]/model.aeon,118,14,TRUE,FALSE,Exclude,0.0157,6,1.84,TRUE,none,Excluded: too large.
+[id-017]__[var-41]__[in-9]__[DIFFERENTIATION-OF-T-LYMPHOCYTES]/model.aeon,50,9,TRUE,FALSE,Exclude,0.0396,9,1.94,TRUE,none,Excluded: too large.
+[id-018]__[var-76]__[in-28]__[EGFR-ERBB-SIGNALING]/model.aeon,104,28,TRUE,FALSE,Exclude,0.0208,14,2.14,TRUE,none,Excluded: too large.
+[id-019]__[var-71]__[in-15]__[IL-6-SIGNALING]/model.aeon,86,15,TRUE,FALSE,Exclude,0.0202,6,1.72,TRUE,none,Excluded: too large.
+[id-020]__[var-39]__[in-2]__[APOPTOSIS-NETWORK]/model.aeon,41,2,TRUE,FALSE,Exclude,0.0439,4,1.76,TRUE,none,Excluded: too large.
+[id-021]__[var-14]__[in-3]__[BODY-SEGMENTATION-IN-DROSOPHILA-2013]/model.aeon,17,3,TRUE,FALSE,Include,0.1066,4,1.71,TRUE,E2_bin_B,"17-gene sparse network with 3 input nodes, max in-degree of 4, and with feedback loops — suitable for E2_bin_B."
+[id-022]__[var-17]__[in-5]__[B-CELL-DIFFERENTIATION]/model.aeon,22,5,TRUE,FALSE,Include,0.0823,7,1.73,TRUE,E2_bin_C,"22-gene sparse network with 5 input nodes, max in-degree of 7, and with feedback loops — suitable for E2_bin_C."
+[id-023]__[var-9]__[in-1]__[MAMMALIAN-CELL-CYCLE-2006]/model.aeon,10,1,TRUE,FALSE,Include,0.3444,5,3.1,TRUE,E2_bin_A,"10-gene dense network with 1 input nodes, max in-degree of 5, and with feedback loops — suitable for E2_bin_A."
+[id-024]__[var-16]__[in-4]__[BUDDING-YEAST-CELL-CYCLE]/model.aeon,20,4,TRUE,FALSE,Include,0.1,5,1.9,TRUE,E2_bin_B,"20-gene sparse network with 4 input nodes, max in-degree of 5, and with feedback loops — suitable for E2_bin_B."
+[id-025]__[var-54]__[in-6]__[T-LGL-SURVIVAL-NETWORK-2011]/model.aeon,60,6,TRUE,FALSE,Exclude,0.0551,7,3.25,TRUE,none,Excluded: too large.
+[id-026]__[var-18]__[in-0]__[BUDDING-YEAST-CELL-CYCLE-2009]/model.aeon,18,0,TRUE,FALSE,Include,0.1895,6,3.22,TRUE,E2_bin_B | E3_candidate,"18-gene dense network with 0 input nodes, max in-degree of 6, and with feedback loops — suitable for E2_bin_B, E3_candidate."
+[id-027]__[var-12]__[in-14]__[WG-PATHWAY-OF-DROSOPHILA]/model.aeon,24,12,TRUE,FALSE,Include,0.0453,6,1.04,TRUE,E2_bin_C,"24-gene sparse network with 12 input nodes, max in-degree of 6, and with feedback loops — suitable for E2_bin_C."
+[id-028]__[var-10]__[in-8]__[VEGF-PATHWAY-OF-DROSOPHILA]/model.aeon,18,8,TRUE,FALSE,Include,0.0588,4,1.0,FALSE,E2_bin_B,"18-gene sparse network with 8 input nodes, max in-degree of 4, and without feedback loops — suitable for E2_bin_B."
+[id-029]__[var-9]__[in-2]__[TOLL-PATHWAY-OF-DROSOPHILA]/model.aeon,10,1,TRUE,FALSE,Include,0.1111,2,1.0,FALSE,E2_bin_A,"10-gene sparse network with 1 input nodes, max in-degree of 2, and without feedback loops — suitable for E2_bin_A."
+[id-030]__[var-18]__[in-6]__[SPZ-NETWORK-OF-DROSOPHILA]/model.aeon,24,6,TRUE,FALSE,Include,0.0507,5,1.17,FALSE,E2_bin_C,"24-gene sparse network with 6 input nodes, max in-degree of 5, and without feedback loops — suitable for E2_bin_C."
+[id-031]__[var-9]__[in-0]__[CELL-CYCLE-TRANSCRIPTION]/model.aeon,9,0,TRUE,FALSE,Include,0.2639,4,2.11,TRUE,E1_candidate | E2_bin_A,"9-gene dense network with 0 input nodes, max in-degree of 4, and with feedback loops — suitable for E1_candidate, E2_bin_A."
+[id-032]__[var-37]__[in-3]__[T-CELL-SIGNALLING-2006]/model.aeon,40,3,TRUE,FALSE,Include,0.0333,5,1.3,TRUE,E2_bin_D,"40-gene sparse network with 3 input nodes, max in-degree of 5, and with feedback loops — suitable for E2_bin_D."
+[id-033]__[var-19]__[in-5]__[BT474-BREAST-CELL-LINE-LONG-TERM]/model.aeon,24,5,TRUE,FALSE,Include,0.1232,6,2.83,TRUE,E2_bin_C,"24-gene sparse network with 5 input nodes, max in-degree of 6, and with feedback loops — suitable for E2_bin_C."
+[id-034]__[var-19]__[in-4]__[HCC1954-BREAST-CELL-LINE-LONG-TERM]/model.aeon,23,4,TRUE,FALSE,Include,0.1344,6,2.96,TRUE,E2_bin_C,"23-gene sparse network with 4 input nodes, max in-degree of 6, and with feedback loops — suitable for E2_bin_C."
+[id-035]__[var-11]__[in-5]__[BT474-BREAST-CELL-LINE-SHORT-TERM]/model.aeon,16,5,TRUE,FALSE,Include,0.1917,6,2.88,TRUE,E2_bin_B,"16-gene dense network with 5 input nodes, max in-degree of 6, and with feedback loops — suitable for E2_bin_B."
+[id-036]__[var-11]__[in-5]__[HCC1954-BREAST-CELL-LINE-SHORT-TERM]/model.aeon,16,5,TRUE,FALSE,Include,0.1917,6,2.88,TRUE,E2_bin_B,"16-gene dense network with 5 input nodes, max in-degree of 6, and with feedback loops — suitable for E2_bin_B."
+[id-037]__[var-11]__[in-5]__[SKBR3-BREAST-CELL-LINE-SHORT-TERM]/model.aeon,16,5,TRUE,FALSE,Include,0.1708,5,2.56,TRUE,E2_bin_B,"16-gene dense network with 5 input nodes, max in-degree of 5, and with feedback loops — suitable for E2_bin_B."
+[id-038]__[var-21]__[in-4]__[SKBR3-BREAST-CELL-LINE-LONG-TERM]/model.aeon,25,4,TRUE,FALSE,Include,0.135,7,3.24,TRUE,E2_bin_C,"25-gene sparse network with 4 input nodes, max in-degree of 7, and with feedback loops — suitable for E2_bin_C."
+[id-039]__[var-124]__[in-14]__[HIV-1-INTERACTIONS-WITH-T-CELL-SIGNALING]/model.aeon,135,12,TRUE,FALSE,Exclude,0.0166,15,2.22,TRUE,none,Excluded: too large.
+[id-040]__[var-19]__[in-4]__[T-CELL-DIFFERENTIATION]/model.aeon,23,4,TRUE,FALSE,Include,0.0672,5,1.48,TRUE,E2_bin_C,"23-gene sparse network with 4 input nodes, max in-degree of 5, and with feedback loops — suitable for E2_bin_C."
+[id-041]__[var-120]__[in-11]__[INFLUENZA-VIRUS-REPLICATION-CYCLE]/model.aeon,131,11,TRUE,FALSE,Exclude,0.0173,11,2.24,TRUE,none,Excluded: too large.
+[id-042]__[var-14]__[in-10]__[TOL-REGULATORY-NETWORK]/model.aeon,24,10,TRUE,FALSE,Include,0.087,10,2.0,FALSE,E2_bin_C,"24-gene sparse network with 10 input nodes, max in-degree of 10, and without feedback loops — suitable for E2_bin_C."
+[id-043]__[var-33]__[in-0]__[BORDETELLA-BRONCHISEPTICA]/model.aeon,33,0,TRUE,FALSE,Include,0.0748,6,2.39,TRUE,E2_bin_D,"33-gene sparse network with 0 input nodes, max in-degree of 6, and with feedback loops — suitable for E2_bin_D."
+[id-044]__[var-25]__[in-1]__[TRICHOSTRONGYLUS-RETORTAEFORMIS]/model.aeon,26,1,TRUE,FALSE,Include,0.0877,5,2.19,TRUE,E2_bin_C,"26-gene sparse network with 1 input nodes, max in-degree of 5, and with feedback loops — suitable for E2_bin_C."
+[id-045]__[var-11]__[in-13]__[HH-PATHWAY-OF-DROSOPHILA]/model.aeon,23,12,TRUE,FALSE,Include,0.0494,8,1.09,FALSE,E2_bin_C,"23-gene sparse network with 12 input nodes, max in-degree of 8, and without feedback loops — suitable for E2_bin_C."
+[id-046]__[var-52]__[in-1]__[B-BRONCHISEPTICA-AND-T-RETORTAEFORMIS]/model.aeon,53,1,TRUE,FALSE,Exclude,0.049,8,2.55,TRUE,none,Excluded: too large.
+[id-047]__[var-14]__[in-9]__[FGF-PATHWAY-OF-DROSOPHILA]/model.aeon,22,8,TRUE,FALSE,Include,0.0476,4,1.0,FALSE,E2_bin_C,"22-gene sparse network with 8 input nodes, max in-degree of 4, and without feedback loops — suitable for E2_bin_C."
+[id-048]__[var-55]__[in-18]__[GLUCOSE-REPRESSION-SIGNALING-2009]/model.aeon,73,18,TRUE,FALSE,Exclude,0.0175,5,1.26,TRUE,none,Excluded: too large.
+[id-049]__[var-18]__[in-1]__[OXIDATIVE-STRESS-PATHWAY]/model.aeon,19,1,TRUE,FALSE,Include,0.0936,4,1.68,TRUE,E2_bin_B,"19-gene sparse network with 1 input nodes, max in-degree of 4, and with feedback loops — suitable for E2_bin_B."
+[id-050]__[var-154]__[in-34]__[CD4-T-CELL-SIGNALING]/model.aeon,188,34,TRUE,FALSE,Exclude,0.0097,10,1.81,TRUE,none,Excluded: too large.
+[id-051]__[var-69]__[in-1]__[COLITIS-ASSOCIATED-COLON-CANCER]/model.aeon,70,1,TRUE,FALSE,Exclude,0.0315,5,2.17,TRUE,none,Excluded: too large.
+[id-052]__[var-23]__[in-8]__[SEPTATION-INITIATION-NETWORK]/model.aeon,31,8,TRUE,FALSE,Include,0.0452,3,1.35,TRUE,E2_bin_D,"31-gene sparse network with 8 input nodes, max in-degree of 3, and with feedback loops — suitable for E2_bin_D."
+[id-053]__[var-13]__[in-2]__[PREDICTING-VARIABILITIES-IN-CARDIAC-GENE]/model.aeon,15,2,TRUE,FALSE,Include,0.1667,7,2.33,TRUE,E2_bin_B,"15-gene dense network with 2 input nodes, max in-degree of 7, and with feedback loops — suitable for E2_bin_B."
+[id-054]__[var-61]__[in-1]__[PC12-CELL-DIFFERENTIATION]/model.aeon,62,1,TRUE,FALSE,Exclude,0.0286,4,1.74,TRUE,none,Excluded: too large.
+[id-055]__[var-19]__[in-0]__[HUMAN-GONADAL-SEX-DETERMINATION]/model.aeon,19,0,TRUE,FALSE,Include,0.1988,8,3.58,TRUE,E2_bin_B | E3_candidate,"19-gene dense network with 0 input nodes, max in-degree of 8, and with feedback loops — suitable for E2_bin_B, E3_candidate."
+[id-056]__[var-66]__[in-25]__[IGVH-MUTATIONS-IN-LYMPHOCYTIC-LEUKEMIA]/model.aeon,85,20,TRUE,FALSE,Exclude,0.014,5,1.18,TRUE,none,Excluded: too large.
+[id-057]__[var-15]__[in-0]__[FANCONI-ANEMIA-AND-CHECKPOINT-RECOVERY]/model.aeon,15,0,TRUE,FALSE,Include,0.2905,8,4.07,TRUE,E2_bin_B | E3_candidate,"15-gene dense network with 0 input nodes, max in-degree of 8, and with feedback loops — suitable for E2_bin_B, E3_candidate."
+[id-058]__[var-14]__[in-0]__[ARABIDOPSIS-THALIANA-CELL-CYCLE]/model.aeon,14,1,TRUE,FALSE,Include,0.2912,8,3.79,TRUE,E2_bin_B,"14-gene dense network with 1 input nodes, max in-degree of 8, and with feedback loops — suitable for E2_bin_B."
+[id-059]__[var-62]__[in-5]__[BORTEZOMIB-RESPONSES-IN-MYELOMA-CELLS]/model.aeon,67,5,TRUE,FALSE,Exclude,0.0283,5,1.87,TRUE,none,Excluded: too large.
+[id-060]__[var-44]__[in-5]__[STOMATAL-OPENING]/model.aeon,49,8,TRUE,FALSE,Exclude,0.0442,8,2.12,TRUE,none,Excluded: too large.
+[id-061]__[var-24]__[in-2]__[TUMOR-MICROENVIRONMENT-IN-LYMPHOBLASTIC-LEUKEAMIA]/model.aeon,26,2,TRUE,FALSE,Include,0.1215,9,3.04,TRUE,E2_bin_C,"26-gene sparse network with 2 input nodes, max in-degree of 9, and with feedback loops — suitable for E2_bin_C."
+[id-062]__[var-12]__[in-6]__[CD4-T-CELL-DIFFERENTIATION-AND-PLASTICITY]/model.aeon,18,6,TRUE,FALSE,Include,0.2549,10,4.33,TRUE,E2_bin_B,"18-gene dense network with 6 input nodes, max in-degree of 10, and with feedback loops — suitable for E2_bin_B."
+[id-063]__[var-10]__[in-3]__[LAC-OPERON]/model.aeon,13,3,TRUE,FALSE,Include,0.141,4,1.69,TRUE,E2_bin_B,"13-gene sparse network with 3 input nodes, max in-degree of 4, and with feedback loops — suitable for E2_bin_B."
+[id-064]__[var-8]__[in-4]__[METABOLIC-INTERACTIONS-IN-GUT-MICROBIOME]/model.aeon,12,4,TRUE,FALSE,Include,0.1894,5,2.08,TRUE,E2_bin_B,"12-gene dense network with 4 input nodes, max in-degree of 5, and with feedback loops — suitable for E2_bin_B."
+[id-065]__[var-30]__[in-2]__[TUMOUR-CELL-INVASION-AND-MIGRATION]/model.aeon,32,2,TRUE,FALSE,Include,0.1573,8,4.88,TRUE,E2_bin_D,"32-gene dense network with 2 input nodes, max in-degree of 8, and with feedback loops — suitable for E2_bin_D."
+[id-066]__[var-29]__[in-9]__[CD4-T-CELL-DIFFERENTIATION]/model.aeon,37,8,TRUE,FALSE,Include,0.0676,8,2.43,TRUE,E2_bin_D,"37-gene sparse network with 8 input nodes, max in-degree of 8, and with feedback loops — suitable for E2_bin_D."
+[id-067]__[var-9]__[in-4]__[REGULATION-OF-L-ARABINOSE-OPERON]/model.aeon,13,4,TRUE,FALSE,Include,0.109,3,1.31,TRUE,E2_bin_B,"13-gene sparse network with 4 input nodes, max in-degree of 3, and with feedback loops — suitable for E2_bin_B."
+[id-068]__[var-19]__[in-4]__[AURORA-KINASE-A-IN-NEUROBLASTOMA]/model.aeon,23,4,TRUE,FALSE,Include,0.081,6,1.78,TRUE,E2_bin_C,"23-gene sparse network with 4 input nodes, max in-degree of 6, and with feedback loops — suitable for E2_bin_C."
+[id-069]__[var-20]__[in-2]__[IRON-ACQUISITION-AND-STRESS-RESPONSE]/model.aeon,22,2,TRUE,FALSE,Include,0.0779,5,1.64,TRUE,E2_bin_C,"22-gene sparse network with 2 input nodes, max in-degree of 5, and with feedback loops — suitable for E2_bin_C."
+[id-070]__[var-49]__[in-4]__[MAPK-CANCER-CELL-FATE]/model.aeon,53,4,TRUE,FALSE,Exclude,0.0377,5,1.96,TRUE,none,Excluded: too large.
+[id-071]__[var-28]__[in-14]__[CASTRATION-RESISTANT-PROSTATE-CANCER]/model.aeon,40,13,TRUE,FALSE,Include,0.0301,5,1.18,FALSE,E2_bin_D,"40-gene sparse network with 13 input nodes, max in-degree of 5, and without feedback loops — suitable for E2_bin_D."
+[id-072]__[var-67]__[in-14]__[LYMPHOPOIESIS-REGULATORY-NETWORK]/model.aeon,81,14,TRUE,FALSE,Exclude,0.0167,7,1.33,TRUE,none,Excluded: too large.
+[id-073]__[var-31]__[in-3]__[LYMPHOID-AND-MYELOID-CELL-SPECIFICATION]/model.aeon,34,3,TRUE,FALSE,Include,0.0811,10,2.68,TRUE,E2_bin_D,"34-gene sparse network with 3 input nodes, max in-degree of 10, and with feedback loops — suitable for E2_bin_D."
+[id-074]__[var-18]__[in-0]__[T-LGL-SURVIVAL-NETWORK-2011-REDUCED]/model.aeon,18,0,TRUE,FALSE,Include,0.1405,4,2.39,TRUE,E2_bin_B | E3_candidate,"18-gene sparse network with 0 input nodes, max in-degree of 4, and with feedback loops — suitable for E2_bin_B, E3_candidate."
+[id-075]__[var-47]__[in-0]__[INFLAMMATORY-BOWEL-DISEASE]/model.aeon,47,47,TRUE,FALSE,Exclude,0.0,0,0.0,FALSE,none,Excluded: too large.
+[id-076]__[var-49]__[in-2]__[SENESCENCE-ASSOCIATED-SECRETORY-PHENOTYPE]/model.aeon,51,2,TRUE,FALSE,Exclude,0.0373,5,1.86,TRUE,none,Excluded: too large.
+[id-077]__[var-53]__[in-13]__[SIGNALLING-PATHWAY-FOR-BUTANOL-PRODUCTION]/model.aeon,66,13,TRUE,FALSE,Exclude,0.0305,7,1.98,TRUE,none,Excluded: too large.
+[id-078]__[var-151]__[in-13]__[IMMUNE-SYSTEM]/model.aeon,164,13,TRUE,FALSE,Exclude,0.0177,20,2.88,TRUE,none,Excluded: too large.
+[id-079]__[var-184]__[in-13]__[COLORECTAL-TUMORIGENESIS]/model.aeon,197,15,TRUE,FALSE,Exclude,0.0163,11,3.2,TRUE,none,Excluded: too large.
+[id-080]__[var-95]__[in-15]__[TCR-SIGNALING-2018]/model.aeon,110,15,TRUE,FALSE,Exclude,0.0177,7,1.93,TRUE,none,Excluded: too large.
+[id-081]__[var-40]__[in-2]__[TLR5-SIGNALING-2018]/model.aeon,42,2,TRUE,FALSE,Exclude,0.0395,3,1.62,TRUE,none,Excluded: too large.
+[id-082]__[var-112]__[in-16]__[TCR-TLR5-SIGNALING-2018]/model.aeon,128,16,TRUE,FALSE,Exclude,0.0158,7,2.01,TRUE,none,Excluded: too large.
+[id-083]__[var-122]__[in-11]__[SIGNALING-IN-PROSTATE-CANCER]/model.aeon,133,11,TRUE,FALSE,Exclude,0.0239,13,3.16,TRUE,none,Excluded: too large.
+[id-084]__[var-58]__[in-23]__[ABA-INDUCED-STOMATAL-CLOSURE]/model.aeon,80,23,TRUE,FALSE,Exclude,0.0234,10,1.85,TRUE,none,Excluded: too large.
+[id-085]__[var-23]__[in-4]__[REPROGRAMMING-TESTES-DERIVED-STEM-CELLS]/model.aeon,27,4,TRUE,FALSE,Include,0.0698,6,1.81,TRUE,E2_bin_C,"27-gene sparse network with 4 input nodes, max in-degree of 6, and with feedback loops — suitable for E2_bin_C."
+[id-086]__[var-18]__[in-2]__[TUMOUR-CELL-INVASION-AND-MIGRATION-REDUCED]/model.aeon,20,2,TRUE,FALSE,Include,0.2316,9,4.4,TRUE,E2_bin_B,"20-gene dense network with 2 input nodes, max in-degree of 9, and with feedback loops — suitable for E2_bin_B."
+[id-087]__[var-99]__[in-34]__[INFLAMMATORY-GENE-EXPRESSION-IN-MACROPHAGES]/model.aeon,99,99,TRUE,FALSE,Exclude,0.0,0,0.0,FALSE,none,Excluded: too large.
+[id-088]__[var-6]__[in-0]__[MIR-9-NEUROGENESIS]/model.aeon,6,0,TRUE,FALSE,Include,0.3667,2,1.83,TRUE,E1_candidate | E2_bin_A,"6-gene dense network with 0 input nodes, max in-degree of 2, and with feedback loops — suitable for E1_candidate, E2_bin_A."
+[id-089]__[var-13]__[in-4]__[MAPK-REDUCED-1]/model.aeon,17,4,TRUE,FALSE,Include,0.2831,9,4.53,TRUE,E2_bin_B,"17-gene dense network with 4 input nodes, max in-degree of 9, and with feedback loops — suitable for E2_bin_B."
+[id-090]__[var-14]__[in-4]__[MAPK-REDUCED-2]/model.aeon,18,4,TRUE,FALSE,Include,0.1895,7,3.22,TRUE,E2_bin_B,"18-gene dense network with 4 input nodes, max in-degree of 7, and with feedback loops — suitable for E2_bin_B."
+[id-091]__[var-12]__[in-4]__[MAPK-REDUCED-3]/model.aeon,16,4,TRUE,FALSE,Include,0.2417,8,3.62,TRUE,E2_bin_B,"16-gene dense network with 4 input nodes, max in-degree of 8, and with feedback loops — suitable for E2_bin_B."
+[id-092]__[var-61]__[in-8]__[HEPATOCELLULAR-CARCINOMA]/model.aeon,69,8,TRUE,FALSE,Exclude,0.0275,9,1.87,TRUE,none,Excluded: too large.
+[id-093]__[var-51]__[in-15]__[IMMUNE-CHECKPOINT-INHIBITORS]/model.aeon,66,15,TRUE,FALSE,Exclude,0.0298,11,1.94,TRUE,none,Excluded: too large.
+[id-094]__[var-23]__[in-8]__[MACROPHAGE-POLARIZATION-STATES]/model.aeon,30,7,TRUE,FALSE,Include,0.0517,6,1.5,TRUE,E2_bin_C,"30-gene sparse network with 7 input nodes, max in-degree of 6, and with feedback loops — suitable for E2_bin_C."
+[id-095]__[var-9]__[in-1]__[FISSION-YEAST-2008]/model.aeon,10,1,TRUE,FALSE,Include,0.3,5,2.7,TRUE,E2_bin_A,"10-gene dense network with 1 input nodes, max in-degree of 5, and with feedback loops — suitable for E2_bin_A."
+[id-096]__[var-19]__[in-1]__[ERBB-REGULATED-G1-S-TRANSITION]/model.aeon,20,1,TRUE,FALSE,Include,0.1263,5,2.4,TRUE,E2_bin_B,"20-gene sparse network with 1 input nodes, max in-degree of 5, and with feedback loops — suitable for E2_bin_B."
+[id-097]__[var-8]__[in-2]__[DROSOPHILA-WINGS-AP]/model.aeon,10,2,TRUE,FALSE,Include,0.1333,2,1.2,TRUE,E2_bin_A,"10-gene sparse network with 2 input nodes, max in-degree of 2, and with feedback loops — suitable for E2_bin_A."
+[id-098]__[var-30]__[in-12]__[MACROPHAGE-POLARIZATION-EXTENDED]/model.aeon,42,12,TRUE,FALSE,Exclude,0.0412,8,1.69,TRUE,none,Excluded: too large.
+[id-099]__[var-16]__[in-3]__[YEAST-HYPHAL-TRANSITION]/model.aeon,19,3,TRUE,FALSE,Include,0.1053,6,1.89,TRUE,E2_bin_B,"19-gene sparse network with 3 input nodes, max in-degree of 6, and with feedback loops — suitable for E2_bin_B."
+[id-100]__[var-18]__[in-3]__[ACUTE-MYELOID-LEUKEMIA]/model.aeon,18,18,TRUE,FALSE,Include,0.0,0,0.0,FALSE,E2_bin_B,"18-gene sparse network with 18 input nodes, max in-degree of 0, and without feedback loops — suitable for E2_bin_B."
+[id-101]__[var-61]__[in-24]__[GUARD-CELL-CO2-SIGNALLING]/model.aeon,61,61,TRUE,FALSE,Exclude,0.0,0,0.0,FALSE,none,Excluded: too large.
+[id-102]__[var-17]__[in-5]__[PANCREATIC-CANCER-MICROENVIRONMENT-REDUCED]/model.aeon,17,17,TRUE,FALSE,Include,0.0,0,0.0,FALSE,E2_bin_B,"17-gene sparse network with 17 input nodes, max in-degree of 0, and without feedback loops — suitable for E2_bin_B."
+[id-103]__[var-65]__[in-4]__[PANCREATIC-CANCER-MICROENVIRONMENT]/model.aeon,65,65,TRUE,FALSE,Exclude,0.0,0,0.0,FALSE,none,Excluded: too large.
+[id-104]__[var-11]__[in-3]__[DROSOPHILA-CELL-CYCLE]/model.aeon,14,3,TRUE,FALSE,Include,0.2308,5,3.0,TRUE,E2_bin_B,"14-gene dense network with 3 input nodes, max in-degree of 5, and with feedback loops — suitable for E2_bin_B."
+[id-105]__[var-46]__[in-3]__[PLANT-GUARD-CELL-SIGNALLING]/model.aeon,46,46,TRUE,FALSE,Exclude,0.0,0,0.0,FALSE,none,Excluded: too large.
+[id-106]__[var-58]__[in-22]__[STOMATAL-RESTING-STATE]/model.aeon,80,22,TRUE,FALSE,Exclude,0.0239,10,1.89,TRUE,none,Excluded: too large.
+[id-107]__[var-32]__[in-1]__[DNA-DAMAGE-INDUCED-AUTOPHAGY]/model.aeon,33,1,TRUE,FALSE,Include,0.0938,7,3.0,TRUE,E2_bin_D,"33-gene sparse network with 1 input nodes, max in-degree of 7, and with feedback loops — suitable for E2_bin_D."
+[id-108]__[var-23]__[in-2]__[GEROCONVERSION]/model.aeon,25,2,TRUE,FALSE,Include,0.1117,6,2.68,TRUE,E2_bin_C,"25-gene sparse network with 2 input nodes, max in-degree of 6, and with feedback loops — suitable for E2_bin_C."
+[id-109]__[var-5]__[in-0]__[ASYMMETRIC-CELL-DIVISION-A]/model.aeon,5,0,TRUE,FALSE,Include,0.75,4,3.0,TRUE,E1_candidate | E2_bin_A,"5-gene dense network with 0 input nodes, max in-degree of 4, and with feedback loops — suitable for E1_candidate, E2_bin_A."
+[id-110]__[var-9]__[in-0]__[ASYMMETRIC-CELL-DIVISION-B]/model.aeon,9,0,TRUE,FALSE,Include,0.1667,2,1.33,TRUE,E1_candidate | E2_bin_A,"9-gene dense network with 0 input nodes, max in-degree of 2, and with feedback loops — suitable for E1_candidate, E2_bin_A."
+[id-111]__[var-18]__[in-15]__[APOPTOSIS]/model.aeon,33,15,TRUE,FALSE,Include,0.0379,8,1.21,FALSE,E2_bin_D,"33-gene sparse network with 15 input nodes, max in-degree of 8, and without feedback loops — suitable for E2_bin_D."
+[id-112]__[var-85]__[in-27]__[COAGULATION-PATHWAY]/model.aeon,112,27,TRUE,FALSE,Exclude,0.0156,10,1.73,TRUE,none,Excluded: too large.
+[id-113]__[var-107]__[in-75]__[ER-STRESS]/model.aeon,182,75,TRUE,FALSE,Exclude,0.0081,10,1.46,TRUE,none,Excluded: too large.
+[id-114]__[var-46]__[in-38]__[ETC]/model.aeon,84,38,TRUE,FALSE,Exclude,0.0215,8,1.79,TRUE,none,Excluded: too large.
+[id-115]__[var-17]__[in-18]__[E-PROTEIN]/model.aeon,35,18,TRUE,FALSE,Include,0.0336,8,1.14,TRUE,E2_bin_D,"35-gene sparse network with 18 input nodes, max in-degree of 8, and with feedback loops — suitable for E2_bin_D."
+[id-116]__[var-89]__[in-55]__[HMOX1-PATHWAY]/model.aeon,144,55,TRUE,FALSE,Exclude,0.0111,9,1.58,TRUE,none,Excluded: too large.
+[id-117]__[var-28]__[in-19]__[IFN-LAMBDA]/model.aeon,47,19,TRUE,FALSE,Exclude,0.0241,4,1.11,TRUE,none,Excluded: too large.
+[id-118]__[var-66]__[in-55]__[INTERFERON-1]/model.aeon,121,55,TRUE,FALSE,Exclude,0.0131,10,1.57,TRUE,none,Excluded: too large.
+[id-119]__[var-13]__[in-6]__[JNK-PATHWAY]/model.aeon,19,6,TRUE,FALSE,Include,0.0614,6,1.11,FALSE,E2_bin_B,"19-gene sparse network with 6 input nodes, max in-degree of 6, and without feedback loops — suitable for E2_bin_B."
+[id-120]__[var-78]__[in-72]__[KYNURENINE-PATHWAY]/model.aeon,150,72,TRUE,FALSE,Exclude,0.0136,13,2.03,TRUE,none,Excluded: too large.
+[id-121]__[var-39]__[in-18]__[NLRP3-ACTIVATION]/model.aeon,57,18,TRUE,FALSE,Exclude,0.0285,11,1.6,TRUE,none,Excluded: too large.
+[id-122]__[var-74]__[in-94]__[NSP14]/model.aeon,168,94,TRUE,FALSE,Exclude,0.0199,57,3.32,TRUE,none,Excluded: too large.
+[id-123]__[var-43]__[in-17]__[NSP4-NSP6]/model.aeon,60,17,TRUE,FALSE,Exclude,0.0175,3,1.03,TRUE,none,Excluded: too large.
+[id-124]__[var-119]__[in-133]__[NSP9-PROTEIN]/model.aeon,252,133,TRUE,FALSE,Exclude,0.0041,6,1.02,TRUE,none,Excluded: too large.
+[id-125]__[var-34]__[in-17]__[ORF10-CUL2-PATHWAY]/model.aeon,51,17,TRUE,FALSE,Exclude,0.0361,6,1.8,TRUE,none,Excluded: too large.
+[id-126]__[var-24]__[in-18]__[ORF3A]/model.aeon,42,18,TRUE,FALSE,Exclude,0.0319,5,1.31,TRUE,none,Excluded: too large.
+[id-127]__[var-44]__[in-35]__[PAMP-SIGNALING]/model.aeon,77,33,TRUE,FALSE,Exclude,0.0181,5,1.38,TRUE,none,Excluded: too large.
+[id-128]__[var-56]__[in-34]__[PYRIMIDINE-DEPRIVATION]/model.aeon,90,34,TRUE,FALSE,Exclude,0.0164,7,1.46,TRUE,none,Excluded: too large.
+[id-129]__[var-33]__[in-1]__[RTC-AND-TRANSCRIPTION]/model.aeon,34,1,TRUE,FALSE,Include,0.0357,4,1.18,FALSE,E2_bin_D,"34-gene sparse network with 1 input nodes, max in-degree of 4, and without feedback loops — suitable for E2_bin_D."
+[id-130]__[var-43]__[in-34]__[RENIN-ANGIOTENSIN]/model.aeon,77,34,TRUE,FALSE,Exclude,0.0222,10,1.69,TRUE,none,Excluded: too large.
+[id-131]__[var-7]__[in-14]__[TGFB-PATHWAY]/model.aeon,21,14,TRUE,FALSE,Include,0.0571,8,1.14,FALSE,E2_bin_C,"21-gene sparse network with 14 input nodes, max in-degree of 8, and without feedback loops — suitable for E2_bin_C."
+[id-132]__[var-129]__[in-19]__[VIRUS-REPLICATION-CYCLE]/model.aeon,148,19,TRUE,FALSE,Exclude,0.0123,14,1.81,TRUE,none,Excluded: too large.
+[id-133]__[var-8]__[in-2]__[ROOT-STEM-CELL-2010]/model.aeon,8,8,TRUE,FALSE,Include,0.0,0,0.0,FALSE,E2_bin_A,"8-gene sparse network with 8 input nodes, max in-degree of 0, and without feedback loops — suitable for E2_bin_A."
+[id-134]__[var-35]__[in-3]__[RHEUMATOID-ARTHRITIS]/model.aeon,38,3,TRUE,FALSE,Include,0.042,4,1.55,TRUE,E2_bin_D,"38-gene sparse network with 3 input nodes, max in-degree of 4, and with feedback loops — suitable for E2_bin_D."
+[id-135]__[var-28]__[in-2]__[SIGNAL-TRANSDUCTION]/model.aeon,30,2,TRUE,FALSE,Include,0.0379,2,1.1,TRUE,E2_bin_C,"30-gene sparse network with 2 input nodes, max in-degree of 2, and with feedback loops — suitable for E2_bin_C."
+[id-136]__[var-26]__[in-2]__[EGF-TNF-ALPHA-SIGNALLING-PATHWAY]/model.aeon,28,2,TRUE,FALSE,Include,0.041,2,1.11,TRUE,E2_bin_C,"28-gene sparse network with 2 input nodes, max in-degree of 2, and with feedback loops — suitable for E2_bin_C."
+[id-137]__[var-71]__[in-11]__[SIGNALLING-IN-LIVER-CANCER]/model.aeon,82,11,TRUE,FALSE,Exclude,0.0178,4,1.44,TRUE,none,Excluded: too large.
+[id-138]__[var-17]__[in-14]__[APOPTOSIS-UPDATED]/model.aeon,17,17,TRUE,FALSE,Include,0.0,0,0.0,FALSE,E2_bin_B,"17-gene sparse network with 17 input nodes, max in-degree of 0, and without feedback loops — suitable for E2_bin_B."
+[id-139]__[var-10]__[in-9]__[ACUTE-RESPONSES-DURING-HYPERINSULINEMIA]/model.aeon,10,10,TRUE,FALSE,Include,0.0,0,0.0,FALSE,E2_bin_A,"10-gene sparse network with 10 input nodes, max in-degree of 0, and without feedback loops — suitable for E2_bin_A."
+[id-140]__[var-62]__[in-18]__[BREAST-CANCER-DRUG-RESISTANCE]/model.aeon,62,62,TRUE,FALSE,Exclude,0.0,0,0.0,FALSE,none,Excluded: too large.
+[id-141]__[var-43]__[in-2]__[HIGH-OSMOLARITY-AND-MATING-PATHWAYS]/model.aeon,45,2,TRUE,FALSE,Exclude,0.0475,7,2.09,TRUE,none,Excluded: too large.
+[id-142]__[var-27]__[in-2]__[BLOOD-STEM-CELL]/model.aeon,27,27,TRUE,FALSE,Include,0.0,0,0.0,FALSE,E2_bin_C,"27-gene sparse network with 27 input nodes, max in-degree of 0, and without feedback loops — suitable for E2_bin_C."
+[id-143]__[var-71]__[in-26]__[BREAST-CANCER-INHIBITORS]/model.aeon,97,26,TRUE,FALSE,Exclude,0.0239,9,2.3,TRUE,none,Excluded: too large.
+[id-144]__[var-146]__[in-56]__[SNF1-AMPK-PATHWAY]/model.aeon,146,146,TRUE,FALSE,Exclude,0.0,0,0.0,FALSE,none,Excluded: too large.
+[id-145]__[var-61]__[in-1]__[MELANOGENESIS]/model.aeon,62,1,TRUE,FALSE,Exclude,0.0299,10,1.82,TRUE,none,Excluded: too large.
+[id-146]__[var-40]__[in-10]__[BUDDING-YEAST-FAURE-2009]/model.aeon,50,10,TRUE,FALSE,Exclude,0.109,19,5.34,TRUE,none,Excluded: too large.
+[id-147]__[var-11]__[in-5]__[BUDDING-YEAST-EXIT-MODULE]/model.aeon,16,5,TRUE,FALSE,Include,0.1833,10,2.75,TRUE,E2_bin_B,"16-gene dense network with 5 input nodes, max in-degree of 10, and with feedback loops — suitable for E2_bin_B."
+[id-148]__[var-83]__[in-0]__[AGS-CELL-FATE-DECISION]/model.aeon,83,0,TRUE,FALSE,Exclude,0.0272,7,2.23,TRUE,none,Excluded: too large.
+[id-149]__[var-12]__[in-2]__[AGS-CELL-FATE-DECISION-REDUCED]/model.aeon,14,2,TRUE,FALSE,Include,0.3407,10,4.43,TRUE,E2_bin_B,"14-gene dense network with 2 input nodes, max in-degree of 10, and with feedback loops — suitable for E2_bin_B."
+[id-150]__[var-31]__[in-2]__[CELL-FATE-DECISION-MULTISCALE]/model.aeon,33,2,TRUE,FALSE,Include,0.0492,4,1.58,TRUE,E2_bin_D,"33-gene sparse network with 2 input nodes, max in-degree of 4, and with feedback loops — suitable for E2_bin_D."
+[id-151]__[var-130]__[in-3]__[TCR-REDOX-METABOLISM]/model.aeon,133,3,TRUE,FALSE,Exclude,0.0238,13,3.14,TRUE,none,Excluded: too large.
+[id-152]__[var-50]__[in-3]__[TCR-REDOX-METABOLISM-REDUCED]/model.aeon,53,3,TRUE,FALSE,Exclude,0.1009,14,5.25,TRUE,none,Excluded: too large.
+[id-153]__[var-17]__[in-1]__[CONTROL-OF-PROLIFERATION]/model.aeon,18,1,TRUE,FALSE,Include,0.1111,5,1.89,TRUE,E2_bin_B,"18-gene sparse network with 1 input nodes, max in-degree of 5, and with feedback loops — suitable for E2_bin_B."
+[id-154]__[var-18]__[in-3]__[CONTROL-OF-TH1-TH2-DIFFERENTIATION]/model.aeon,21,3,TRUE,FALSE,Include,0.1167,5,2.33,TRUE,E2_bin_C,"21-gene sparse network with 3 input nodes, max in-degree of 5, and with feedback loops — suitable for E2_bin_C."
+[id-155]__[var-45]__[in-26]__[CONTROL-OF-TH1-TH2-TH17-TREG-DIFFERENTATION]/model.aeon,71,26,TRUE,FALSE,Exclude,0.0328,9,2.3,TRUE,none,Excluded: too large.
+[id-156]__[var-23]__[in-13]__[CONTROL-OF-TH1-TH2-TH17-TREG-DIFFERENTATION-REDUCED]/model.aeon,36,13,TRUE,FALSE,Include,0.0849,10,2.97,TRUE,E2_bin_D,"36-gene sparse network with 13 input nodes, max in-degree of 10, and with feedback loops — suitable for E2_bin_D."
+[id-157]__[var-62]__[in-41]__[CONTROL-OF-TH-DIFFERENTATION]/model.aeon,103,41,TRUE,FALSE,Exclude,0.0223,9,2.27,TRUE,none,Excluded: too large.
+[id-158]__[var-7]__[in-0]__[LAMBDA-PHAGE-LYSOGENY]/model.aeon,7,0,TRUE,FALSE,Include,0.7143,6,4.29,TRUE,E1_candidate | E2_bin_A,"7-gene dense network with 0 input nodes, max in-degree of 6, and with feedback loops — suitable for E1_candidate, E2_bin_A."
+[id-159]__[var-31]__[in-8]__[BUDDING-YEAST-CORE]/model.aeon,39,8,TRUE,FALSE,Include,0.1242,18,4.72,TRUE,E2_bin_D,"39-gene sparse network with 8 input nodes, max in-degree of 18, and with feedback loops — suitable for E2_bin_D."
+[id-160]__[var-76]__[in-16]__[IL17-DIFFERENTIAL-EXPRESSION]/model.aeon,92,16,TRUE,FALSE,Exclude,0.0294,13,2.67,TRUE,none,Excluded: too large.
+[id-161]__[var-94]__[in-2]__[DIFFERENTIATION-OF-MONOCYTES]/model.aeon,96,2,TRUE,FALSE,Exclude,0.0268,10,2.54,TRUE,none,Excluded: too large.
+[id-162]__[var-10]__[in-8]__[DROSOPHILA-DPP-PATHWAY]/model.aeon,18,8,TRUE,FALSE,Include,0.1307,8,2.22,TRUE,E2_bin_B,"18-gene sparse network with 8 input nodes, max in-degree of 8, and with feedback loops — suitable for E2_bin_B."
+[id-163]__[var-24]__[in-10]__[DROSOPHILA-EGF-PATHWAY]/model.aeon,34,10,TRUE,FALSE,Include,0.0749,9,2.47,TRUE,E2_bin_D,"34-gene sparse network with 10 input nodes, max in-degree of 9, and with feedback loops — suitable for E2_bin_D."
+[id-164]__[var-17]__[in-7]__[EGGSHELL-PATTERNING-MECHANISTIC]/model.aeon,24,7,TRUE,FALSE,Include,0.1123,8,2.58,TRUE,E2_bin_C,"24-gene sparse network with 7 input nodes, max in-degree of 8, and with feedback loops — suitable for E2_bin_C."
+[id-165]__[var-4]__[in-4]__[EGGSHELL-PATTERNING-PHENOMOENOLOGICAL]/model.aeon,8,4,TRUE,FALSE,Include,0.2857,5,2.0,TRUE,E2_bin_A,"8-gene dense network with 4 input nodes, max in-degree of 5, and with feedback loops — suitable for E2_bin_A."
+[id-166]__[var-7]__[in-12]__[DROSOPHILA-JAK-STAT-PATHWAY]/model.aeon,19,12,TRUE,FALSE,Include,0.1053,8,1.89,TRUE,E2_bin_B,"19-gene sparse network with 12 input nodes, max in-degree of 8, and with feedback loops — suitable for E2_bin_B."
+[id-167]__[var-41]__[in-16]__[MESODERM-SPECIFICATION-IN-DROSOPHILA]/model.aeon,57,16,TRUE,FALSE,Exclude,0.0407,11,2.28,TRUE,none,Excluded: too large.
+[id-168]__[var-7]__[in-6]__[DROSOPHILA-NOTCH-PATHWAY]/model.aeon,13,6,TRUE,FALSE,Include,0.1667,7,2.0,TRUE,E2_bin_B,"13-gene dense network with 6 input nodes, max in-degree of 7, and with feedback loops — suitable for E2_bin_B."
+[id-169]__[var-5]__[in-2]__[DROSOPHILA-GAP-A]/model.aeon,7,2,TRUE,FALSE,Include,0.4048,7,2.43,TRUE,E2_bin_A,"7-gene dense network with 2 input nodes, max in-degree of 7, and with feedback loops — suitable for E2_bin_A."
+[id-170]__[var-4]__[in-3]__[DROSOPHILA-GAP-B]/model.aeon,7,3,TRUE,FALSE,Include,0.3571,7,2.14,TRUE,E2_bin_A,"7-gene dense network with 3 input nodes, max in-degree of 7, and with feedback loops — suitable for E2_bin_A."
+[id-171]__[var-5]__[in-2]__[DROSOPHILA-GAP-C]/model.aeon,7,2,TRUE,FALSE,Include,0.4762,7,2.86,TRUE,E2_bin_A,"7-gene dense network with 2 input nodes, max in-degree of 7, and with feedback loops — suitable for E2_bin_A."
+[id-172]__[var-5]__[in-2]__[DROSOPHILA-GAP-D]/model.aeon,7,2,TRUE,FALSE,Include,0.2857,3,1.71,TRUE,E2_bin_A,"7-gene dense network with 2 input nodes, max in-degree of 3, and with feedback loops — suitable for E2_bin_A."
+[id-173]__[var-62]__[in-14]__[GLUCOSE-REPRESSION-SIGNALLING]/model.aeon,62,62,TRUE,FALSE,Exclude,0.0,0,0.0,FALSE,none,Excluded: too large.
+[id-174]__[var-19]__[in-0]__[HEPATOCELLULAR-CARCINOMA-REDUCED]/model.aeon,19,19,TRUE,FALSE,Include,0.0,0,0.0,FALSE,E2_bin_B,"19-gene sparse network with 19 input nodes, max in-degree of 0, and without feedback loops — suitable for E2_bin_B."
+[id-175]__[var-32]__[in-9]__[SEA-URCHIN]/model.aeon,41,9,TRUE,FALSE,Exclude,0.0579,9,2.32,TRUE,none,Excluded: too large.
+[id-176]__[var-47]__[in-2]__[MYELOFIBROTIC-MICROENVIRONMENT]/model.aeon,49,2,TRUE,FALSE,Exclude,0.0629,8,3.02,TRUE,none,Excluded: too large.
+[id-177]__[var-11]__[in-0]__[MYELOID-PROGENITORS]/model.aeon,11,11,TRUE,FALSE,Include,0.0,0,0.0,FALSE,E2_bin_B,"11-gene sparse network with 11 input nodes, max in-degree of 0, and without feedback loops — suitable for E2_bin_B."
+[id-178]__[var-45]__[in-3]__[MAST-CELL-ACTIVATION]/model.aeon,48,3,TRUE,FALSE,Exclude,0.0319,5,1.5,TRUE,none,Excluded: too large.
+[id-179]__[var-46]__[in-10]__[MICROENVIRONMENT-CONTROL]/model.aeon,56,10,TRUE,FALSE,Exclude,0.0484,10,2.66,TRUE,none,Excluded: too large.
+[id-180]__[var-11]__[in-1]__[MORPHOGENETIC-CHECKPOINT]/model.aeon,12,1,TRUE,FALSE,Include,0.2727,7,3.0,TRUE,E2_bin_B,"12-gene dense network with 1 input nodes, max in-degree of 7, and with feedback loops — suitable for E2_bin_B."
+[id-181]__[var-12]__[in-1]__[MULTILEVEL-CELL-CYCLE]/model.aeon,13,1,TRUE,FALSE,Include,0.3782,8,4.54,TRUE,E2_bin_B,"13-gene dense network with 1 input nodes, max in-degree of 8, and with feedback loops — suitable for E2_bin_B."
+[id-182]__[var-12]__[in-2]__[BOOLEAN-CELL-CYCLE]/model.aeon,14,2,TRUE,FALSE,Include,0.3242,8,4.21,TRUE,E2_bin_B,"14-gene dense network with 2 input nodes, max in-degree of 8, and with feedback loops — suitable for E2_bin_B."
+[id-183]__[var-31]__[in-4]__[ALTERATIONS-IN-BLADDER]/model.aeon,35,4,TRUE,FALSE,Include,0.0933,10,3.17,TRUE,E2_bin_D,"35-gene sparse network with 4 input nodes, max in-degree of 10, and with feedback loops — suitable for E2_bin_D."
+[id-184]__[var-5]__[in-1]__[P53-MDM2-NETWORK]/model.aeon,6,1,TRUE,FALSE,Include,0.5,4,2.5,TRUE,E2_bin_A,"6-gene dense network with 1 input nodes, max in-degree of 4, and with feedback loops — suitable for E2_bin_A."
+[id-185]__[var-12]__[in-3]__[CHICKEN-SEX-DETERMINATION]/model.aeon,15,3,TRUE,FALSE,Include,0.1619,8,2.27,TRUE,E2_bin_B,"15-gene dense network with 3 input nodes, max in-degree of 8, and with feedback loops — suitable for E2_bin_B."
+[id-186]__[var-7]__[in-3]__[CHICKEN-SEX-DETERMINATION-REDUCED]/model.aeon,10,3,TRUE,FALSE,Include,0.2778,8,2.5,TRUE,E2_bin_A,"10-gene dense network with 3 input nodes, max in-degree of 8, and with feedback loops — suitable for E2_bin_A."
+[id-187]__[var-13]__[in-6]__[MAMMAL-SEX-DETERMINATION-1-CELL]/model.aeon,19,6,TRUE,FALSE,Include,0.1608,7,2.89,TRUE,E2_bin_B,"19-gene dense network with 6 input nodes, max in-degree of 7, and with feedback loops — suitable for E2_bin_B."
+[id-188]__[var-30]__[in-7]__[MAMMAL-SEX-DETERMINATION-2-CELL]/model.aeon,37,7,TRUE,FALSE,Include,0.0991,6,3.57,TRUE,E2_bin_D,"37-gene sparse network with 7 input nodes, max in-degree of 6, and with feedback loops — suitable for E2_bin_D."
+[id-189]__[var-5]__[in-1]__[TRP-BIOSYNTHESIS]/model.aeon,6,1,TRUE,FALSE,Include,0.4333,4,2.17,TRUE,E2_bin_A,"6-gene dense network with 1 input nodes, max in-degree of 4, and with feedback loops — suitable for E2_bin_A."
+[id-190]__[var-32]__[in-5]__[BRAF-TREATMENT-RESPONSE]/model.aeon,37,5,TRUE,FALSE,Include,0.0556,6,2.0,TRUE,E2_bin_D,"37-gene sparse network with 5 input nodes, max in-degree of 6, and with feedback loops — suitable for E2_bin_D."
+[id-191]__[var-17]__[in-2]__[SEGMENT-POLARITY-1-CELL]/model.aeon,19,2,TRUE,FALSE,Include,0.1608,8,2.89,TRUE,E2_bin_B,"19-gene dense network with 2 input nodes, max in-degree of 8, and with feedback loops — suitable for E2_bin_B."
+[id-192]__[var-102]__[in-0]__[SEGMENT-POLARITY-6-CELL]/model.aeon,102,0,TRUE,FALSE,Exclude,0.0342,8,3.45,TRUE,none,Excluded: too large.
+[id-193]__[var-28]__[in-2]__[SENESCENCE-G1S-CHECKPOINT]/model.aeon,30,2,TRUE,FALSE,Include,0.1149,9,3.33,TRUE,E2_bin_C,"30-gene sparse network with 2 input nodes, max in-degree of 9, and with feedback loops — suitable for E2_bin_C."
+[id-194]__[var-78]__[in-28]__[VULVAR-PRECURSOR-CELLS]/model.aeon,106,28,TRUE,FALSE,Exclude,0.0208,8,2.19,TRUE,none,Excluded: too large.
+[id-195]__[var-161]__[in-55]__[CTLA4-PD1-CHECKPOINT-INHIBITORS]/model.aeon,214,53,TRUE,FALSE,Exclude,0.0095,11,2.03,TRUE,none,Excluded: too large.
+[id-196]__[var-58]__[in-3]__[T-LYMPHOCYTE-SPECIFICATION]/model.aeon,61,3,TRUE,FALSE,Exclude,0.0645,11,3.87,TRUE,none,Excluded: too large.
+[id-197]__[var-48]__[in-8]__[ANTERIOR-POSTERIOR-BOUNDARY]/model.aeon,56,8,TRUE,FALSE,Exclude,0.0821,12,4.52,TRUE,none,Excluded: too large.
+[id-198]__[var-11]__[in-0]__[PAIR-RULE-MODULE]/model.aeon,11,0,TRUE,FALSE,Include,0.4364,7,4.36,TRUE,E2_bin_B,"11-gene dense network with 0 input nodes, max in-degree of 7, and with feedback loops — suitable for E2_bin_B."
+[id-199]__[var-30]__[in-0]__[HEPATOCELLULAR-CARCINOMA-COMPARTMENTALIZED]/model.aeon,30,30,TRUE,FALSE,Include,0.0,0,0.0,FALSE,E2_bin_C,"30-gene sparse network with 30 input nodes, max in-degree of 0, and without feedback loops — suitable for E2_bin_C."
+[id-200]__[var-25]__[in-1]__[LUNG-CANCER-CELL-CYCLE]/model.aeon,26,1,TRUE,FALSE,Include,0.1092,6,2.73,TRUE,E2_bin_C,"26-gene sparse network with 1 input nodes, max in-degree of 6, and with feedback loops — suitable for E2_bin_C."
+[id-201]__[var-31]__[in-2]__[ONKOGENE-ROLE-OF-INCRNA-ANRIL]/model.aeon,33,2,TRUE,FALSE,Include,0.0881,8,2.82,TRUE,E2_bin_D,"33-gene sparse network with 2 input nodes, max in-degree of 8, and with feedback loops — suitable for E2_bin_D."
+[id-202]__[var-30]__[in-1]__[ONKOGENE-ROLE-OF-INCRNA-XIST]/model.aeon,31,1,TRUE,FALSE,Include,0.1151,7,3.45,TRUE,E2_bin_D,"31-gene sparse network with 1 input nodes, max in-degree of 7, and with feedback loops — suitable for E2_bin_D."
+[id-203]__[var-39]__[in-1]__[DDR-SIGNALLING-PATHWAYS]/model.aeon,40,1,TRUE,FALSE,Include,0.0917,9,3.58,TRUE,E2_bin_D,"40-gene sparse network with 1 input nodes, max in-degree of 9, and with feedback loops — suitable for E2_bin_D."
+[id-204]__[var-76]__[in-1]__[HUMAN-BRAIN-ORGANOIDS]/model.aeon,77,1,TRUE,FALSE,Exclude,0.035,8,2.66,TRUE,none,Excluded: too large.
+[id-205]__[var-41]__[in-4]__[EPITHELIAL-MESENCHYMAL-TRANSITION-IN-BLADDER]/model.aeon,41,41,TRUE,FALSE,Exclude,0.0,0,0.0,FALSE,none,Excluded: too large.
+[id-206]__[var-36]__[in-5]__[EPITHELIAL-MESENCHYMAL-TRANSITION-IN-BREAST]/model.aeon,36,36,TRUE,FALSE,Include,0.0,0,0.0,FALSE,E2_bin_D,"36-gene sparse network with 36 input nodes, max in-degree of 0, and without feedback loops — suitable for E2_bin_D."
+[id-207]__[var-85]__[in-18]__[BREAST-CANCER-TUMOUR]/model.aeon,85,85,TRUE,FALSE,Exclude,0.0,0,0.0,FALSE,none,Excluded: too large.
+[id-208]__[var-15]__[in-0]__[HEMATOPOIESIS-AGING]/model.aeon,15,0,TRUE,FALSE,Include,0.1714,5,2.4,TRUE,E2_bin_B | E3_candidate,"15-gene dense network with 0 input nodes, max in-degree of 5, and with feedback loops — suitable for E2_bin_B, E3_candidate."
+[id-209]__[var-85]__[in-2]__[ABERRANT-CELL-CYCLE-PROGRESSION]/model.aeon,87,2,TRUE,FALSE,Exclude,0.0499,10,4.29,TRUE,none,Excluded: too large.
+[id-210]__[var-144]__[in-0]__[DRUG-SYNERGY-PREDICTION]/model.aeon,144,0,TRUE,FALSE,Exclude,0.0178,11,2.55,TRUE,none,Excluded: too large.
+[id-211]__[var-183]__[in-0]__[EPITHELIAL-DERIVED-CANCER-CELLS]/model.aeon,183,0,TRUE,FALSE,Exclude,0.0181,12,3.29,TRUE,none,Excluded: too large.
+[id-212]__[var-13]__[in-3]__[ESCHERICHIA-COLI-TRYPTOPHAN]/model.aeon,13,13,TRUE,FALSE,Include,0.0,0,0.0,FALSE,E2_bin_B,"13-gene sparse network with 13 input nodes, max in-degree of 0, and without feedback loops — suitable for E2_bin_B."
+[id-213]__[var-54]__[in-11]__[DOPAMINE-TRANSCRIPTION]/model.aeon,65,11,TRUE,FALSE,Exclude,0.0226,8,1.45,TRUE,none,Excluded: too large.
+[id-214]__[var-52]__[in-18]__[FOXO3-PATHWAY]/model.aeon,70,18,TRUE,FALSE,Exclude,0.0184,7,1.27,TRUE,none,Excluded: too large.
+[id-215]__[var-41]__[in-26]__[MTOR-PATHWAY]/model.aeon,67,26,TRUE,FALSE,Exclude,0.0188,6,1.24,TRUE,none,Excluded: too large.
+[id-216]__[var-52]__[in-17]__[PPARGC1A-PATHWAY]/model.aeon,69,17,TRUE,FALSE,Exclude,0.0232,10,1.58,TRUE,none,Excluded: too large.
+[id-217]__[var-21]__[in-35]__[PRKN-PATHWAY]/model.aeon,56,35,TRUE,FALSE,Exclude,0.0234,10,1.29,TRUE,none,Excluded: too large.
+[id-218]__[var-34]__[in-34]__[TCA-CYCLE]/model.aeon,68,34,TRUE,FALSE,Exclude,0.043,19,2.88,TRUE,none,Excluded: too large.
+[id-219]__[var-45]__[in-39]__[WNT-PI3K-AKT-PATHWAY]/model.aeon,84,39,TRUE,FALSE,Exclude,0.0152,8,1.26,TRUE,none,Excluded: too large.
+[id-220]__[var-261]__[in-81]__[HEALING-RESPONSE-IN-LEISHMANIASIS]/model.aeon,261,261,TRUE,FALSE,Exclude,0.0,0,0.0,FALSE,none,Excluded: too large.
+[id-221]__[var-280]__[in-37]__[MYCOBACTERIAL-LATENCY]/model.aeon,280,280,TRUE,FALSE,Exclude,0.0,0,0.0,FALSE,none,Excluded: too large.
+[id-222]__[var-167]__[in-39]__[TEMPORAL-PROTEIN-EXPRESSION]/model.aeon,167,167,TRUE,FALSE,Exclude,0.0,0,0.0,FALSE,none,Excluded: too large.
+[id-223]__[var-114]__[in-27]__[ANGIOGENESIS-MICROENVIRONMENT]/model.aeon,114,114,TRUE,FALSE,Exclude,0.0,0,0.0,FALSE,none,Excluded: too large.
+[id-224]__[var-87]__[in-8]__[BORTEZOMIB-PHARMACODYNAMIC-HETEROGENEITY]/model.aeon,87,87,TRUE,FALSE,Exclude,0.0,0,0.0,FALSE,none,Excluded: too large.
+[id-225]__[var-69]__[in-22]__[INTEGRATED-PROSTATE-CANCER-NETWORK]/model.aeon,69,69,TRUE,FALSE,Exclude,0.0,0,0.0,FALSE,none,Excluded: too large.
+[id-226]__[var-68]__[in-7]__[B-CELL-APOPTOSIS]/model.aeon,68,68,TRUE,FALSE,Exclude,0.0,0,0.0,FALSE,none,Excluded: too large.
+[id-227]__[var-37]__[in-28]__[HEDGEHOG-SIGNALING-PATHWAY]/model.aeon,37,37,TRUE,FALSE,Include,0.0,0,0.0,FALSE,E2_bin_D,"37-gene sparse network with 37 input nodes, max in-degree of 0, and without feedback loops — suitable for E2_bin_D."
+[id-228]__[var-47]__[in-9]__[INTEGRATION-OF-SIGNALING-AND-KINETIC-MODELS]/model.aeon,47,47,TRUE,FALSE,Exclude,0.0,0,0.0,FALSE,none,Excluded: too large.
+[id-229]__[var-52]__[in-4]__[CALCIUM-SIGNALING-STOMATAL-CLOSURE]/model.aeon,52,52,TRUE,FALSE,Exclude,0.0,0,0.0,FALSE,none,Excluded: too large.
+[id-230]__[var-50]__[in-5]__[HEPATOCYTE-GROWTH-FACTOR]/model.aeon,50,50,TRUE,FALSE,Exclude,0.0,0,0.0,FALSE,none,Excluded: too large.
+[id-231]__[var-110]__[in-7]__[BREAST-CANCER-SIGNALLING-PATHWAYS]/model.aeon,110,110,TRUE,FALSE,Exclude,0.0,0,0.0,FALSE,none,Excluded: too large.
+[id-232]__[var-109]__[in-8]__[BREAST-CANCER-PATHWAYS-MCF7-COMPLETE]/model.aeon,109,109,TRUE,FALSE,Exclude,0.0,0,0.0,FALSE,none,Excluded: too large.
+[id-233]__[var-109]__[in-8]__[BREAST-CANCER-SIGNALLING-PATHWAYS-T47D-COMPLETE]/model.aeon,109,109,TRUE,FALSE,Exclude,0.0,0,0.0,FALSE,none,Excluded: too large.
+[id-234]__[var-111]__[in-6]__[BREAST-CANCER-SIGNALLING-PATHWAYS-MDAMB468-COMPLETE]/model.aeon,111,111,TRUE,FALSE,Exclude,0.0,0,0.0,FALSE,none,Excluded: too large.
+[id-235]__[var-110]__[in-7]__[BREAST-CANCER-SIGNALLING-PATHWAYS-MDAMB231-COMPLETE]/model.aeon,110,110,TRUE,FALSE,Exclude,0.0,0,0.0,FALSE,none,Excluded: too large.
+[id-236]__[var-109]__[in-8]__[BREAST-CANCER-SIGNALLING-PATHWAYS-BT549-COMPLETE]/model.aeon,109,109,TRUE,FALSE,Exclude,0.0,0,0.0,FALSE,none,Excluded: too large.
+[id-237]__[var-17]__[in-0]__[COLORECTAL-TUMORIGENESIS-REVERSION-SWITCH]/model.aeon,17,17,TRUE,FALSE,Include,0.0,0,0.0,FALSE,E2_bin_B,"17-gene sparse network with 17 input nodes, max in-degree of 0, and without feedback loops — suitable for E2_bin_B."
+[id-238]__[var-33]__[in-1]__[DNA-DAMAGE-INDUCED-FERROPTOSIS]/model.aeon,34,1,TRUE,FALSE,Include,0.0793,6,2.62,TRUE,E2_bin_D,"34-gene sparse network with 1 input nodes, max in-degree of 6, and with feedback loops — suitable for E2_bin_D."
+[id-239]__[var-234]__[in-69]__[M1-SYNOVIAL-MACROPHAGE]/model.aeon,303,69,TRUE,FALSE,Exclude,0.0061,29,1.85,TRUE,none,Excluded: too large.
+[id-240]__[var-197]__[in-52]__[M2-SYNOVIAL-MACROPHAGE]/model.aeon,249,52,TRUE,FALSE,Exclude,0.007,19,1.73,TRUE,none,Excluded: too large.
+[id-241]__[var-118]__[in-39]__[RHEUMATOID-ARTHRITIS-TH1]/model.aeon,157,39,TRUE,FALSE,Exclude,0.0088,13,1.38,TRUE,none,Excluded: too large.
+[id-242]__[var-286]__[in-85]__[RHEUMATOID-ARTHRITIS-FIBROBLAST]/model.aeon,371,85,TRUE,FALSE,Exclude,0.0045,23,1.68,TRUE,none,Excluded: too large.
+[id-243]__[var-853]__[in-223]__[RHEUMATOID-ARTHRITIS-MULTI-CELLULAR]/model.aeon,1076,223,TRUE,FALSE,Exclude,0.0016,24,1.68,TRUE,none,Excluded: too large.
+[id-244]__[var-70]__[in-15]__[LIMPHOPOIESIS]/model.aeon,70,70,TRUE,FALSE,Exclude,0.0,0,0.0,FALSE,none,Excluded: too large.
+[id-245]__[var-17]__[in-4]__[CARDIOMYOCYTE-DIFFERENTIATION]/model.aeon,17,17,TRUE,FALSE,Include,0.0,0,0.0,FALSE,E2_bin_B,"17-gene sparse network with 17 input nodes, max in-degree of 0, and without feedback loops — suitable for E2_bin_B."
+[id-246]__[var-148]__[in-20]__[C-ELEGANS-VULVAL-DEVELOPMENT]/model.aeon,168,20,TRUE,FALSE,Exclude,0.0175,5,2.92,TRUE,none,Excluded: too large.
+[id-247]__[var-280]__[in-20]__[MAMMALIAN-EPIDERMIS]/model.aeon,300,20,TRUE,FALSE,Exclude,0.0156,10,4.65,TRUE,none,Excluded: too large.
+[id-248]__[var-132]__[in-42]__[DIABETES-METABOLIC-DISTURBANCE]/model.aeon,174,42,TRUE,FALSE,Exclude,0.0183,23,3.17,TRUE,none,Excluded: too large.
+[id-249]__[var-74]__[in-28]__[MYELOID-LEUKEMIA-DRUG-TARGETS]/model.aeon,102,28,TRUE,FALSE,Exclude,0.0261,15,2.64,TRUE,none,Excluded: too large.
+[id-250]__[var-23]__[in-8]__[MYELOID-LEUKEMIA-PIM-PATHWAY]/model.aeon,31,8,TRUE,FALSE,Include,0.0495,4,1.48,FALSE,E2_bin_D,"31-gene sparse network with 8 input nodes, max in-degree of 4, and without feedback loops — suitable for E2_bin_D."
+[id-251]__[var-113]__[in-4]__[CELL-CYCLE-POOL]/model.aeon,117,4,TRUE,FALSE,Exclude,0.1082,43,12.55,TRUE,none,Excluded: too large.
+[id-252]__[var-695]__[in-65]__[MAMMALIAN-EPIDERMIS-2D]/model.aeon,760,65,TRUE,FALSE,Exclude,0.0061,18,4.6,TRUE,none,Excluded: too large.
+[id-253]__[var-268]__[in-30]__[STOMAL-OSMOREGULATION-IN-CANCER]/model.aeon,298,30,TRUE,FALSE,Exclude,0.033,44,9.81,TRUE,none,Excluded: too large.
+[id-254]__[var-170]__[in-9]__[MYC-HETEROGENEITY-IN-CANCER-IN-VIVO]/model.aeon,179,9,TRUE,FALSE,Exclude,0.0287,20,5.11,TRUE,none,Excluded: too large.
+[id-255]__[var-172]__[in-13]__[MYC-HETEROGENEITY-IN-CANCER-IN-VITRO]/model.aeon,185,13,TRUE,FALSE,Exclude,0.0277,20,5.1,TRUE,none,Excluded: too large.
+[id-256]__[var-296]__[in-17]__[LACTIC-ACID-LYMPH-NODE-STROMA]/model.aeon,313,17,TRUE,FALSE,Exclude,0.0165,80,5.15,TRUE,none,Excluded: too large.
+[id-257]__[var-37]__[in-9]__[HOXA9-CANCER-SWITCH]/model.aeon,46,9,TRUE,FALSE,Exclude,0.0594,7,2.67,TRUE,none,Excluded: too large.
+[id-258]__[var-175]__[in-37]__[IMMUNE-SURVEILLANCE-OF-PRIMARY-MELANOMA]/model.aeon,212,37,TRUE,FALSE,Exclude,0.024,17,5.06,TRUE,none,Excluded: too large.
+[id-259]__[var-53]__[in-23]__[IMMUNE-SURVEILLANCE-OF-PRIMARY-MELANOMA-LC]/model.aeon,76,23,TRUE,FALSE,Exclude,0.0368,9,2.76,TRUE,none,Excluded: too large.
+[id-260]__[var-230]__[in-55]__[IMMUNE-SURVEILLANCE-OF-PRIMARY-MELANOMA-COMBINED]/model.aeon,285,55,TRUE,FALSE,Exclude,0.0162,17,4.6,TRUE,none,Excluded: too large.
+[id-261]__[var-342]__[in-58]__[SARS-COV-2-HOST-INTERACTION]/model.aeon,400,58,TRUE,FALSE,Exclude,0.0147,26,5.88,TRUE,none,Excluded: too large.
+[id-262]__[var-17]__[in-10]__[CANCER-SIGNALLING-TUTORIAL]/model.aeon,27,10,TRUE,FALSE,Include,0.0456,4,1.19,FALSE,E2_bin_C,"27-gene sparse network with 10 input nodes, max in-degree of 4, and without feedback loops — suitable for E2_bin_C."
+[id-263]__[var-313]__[in-42]__[METABOLISM-TUTORIAL]/model.aeon,355,42,TRUE,FALSE,Exclude,0.0167,22,5.91,TRUE,none,Excluded: too large.
+[id-264]__[var-18]__[in-3]__[PREIMPLANTATION-EMBRYO-TROPHECTODERM-1]/model.aeon,18,18,TRUE,FALSE,Include,0.0,0,0.0,FALSE,E2_bin_B,"18-gene sparse network with 18 input nodes, max in-degree of 0, and without feedback loops — suitable for E2_bin_B."
+[id-265]__[var-14]__[in-3]__[PREIMPLANTATION-EMBRYO-TROPHECTODERM-1-MATURE]/model.aeon,14,14,TRUE,FALSE,Include,0.0,0,0.0,FALSE,E2_bin_B,"14-gene sparse network with 14 input nodes, max in-degree of 0, and without feedback loops — suitable for E2_bin_B."
+[id-266]__[var-21]__[in-5]__[PREIMPLANTATION-EMBRYO-TROPHECTODERM-2]/model.aeon,21,21,TRUE,FALSE,Include,0.0,0,0.0,FALSE,E2_bin_C,"21-gene sparse network with 21 input nodes, max in-degree of 0, and without feedback loops — suitable for E2_bin_C."
+[id-267]__[var-21]__[in-2]__[PREIMPLANTATION-EMBRYO-TROPHECTODERM-2-MATURE]/model.aeon,21,21,TRUE,FALSE,Include,0.0,0,0.0,FALSE,E2_bin_C,"21-gene sparse network with 21 input nodes, max in-degree of 0, and without feedback loops — suitable for E2_bin_C."
+[id-268]__[var-156]__[in-47]__[COLORECTAL-CANCER-GSE1323]/model.aeon,156,156,TRUE,FALSE,Exclude,0.0,0,0.0,FALSE,none,Excluded: too large.
+[id-269]__[var-156]__[in-47]__[COLORECTAL-CANCER-GSE8671]/model.aeon,156,156,TRUE,FALSE,Exclude,0.0,0,0.0,FALSE,none,Excluded: too large.
+[id-270]__[var-23]__[in-7]__[PREECLAMPSIA-PATHOGENESIS]/model.aeon,23,23,TRUE,FALSE,Include,0.0,0,0.0,FALSE,E2_bin_C,"23-gene sparse network with 23 input nodes, max in-degree of 0, and without feedback loops — suitable for E2_bin_C."
+[id-271]__[var-11]__[in-0]__[BLOOD-STEM-CELL-HETEROGENEITY]/model.aeon,11,0,TRUE,FALSE,Include,0.4,6,4.0,TRUE,E2_bin_B,"11-gene dense network with 0 input nodes, max in-degree of 6, and with feedback loops — suitable for E2_bin_B."
+[id-272]__[var-25]__[in-5]__[FLT3-ITD-AML-SIGNALING]/model.aeon,30,8,TRUE,FALSE,Include,0.0736,11,2.13,TRUE,E2_bin_C,"30-gene sparse network with 8 input nodes, max in-degree of 11, and with feedback loops — suitable for E2_bin_C."
+[id-273]__[var-34]__[in-2]__[HSC-MAINTENANCE]/model.aeon,34,34,TRUE,FALSE,Include,0.0,0,0.0,FALSE,E2_bin_D,"34-gene sparse network with 34 input nodes, max in-degree of 0, and without feedback loops — suitable for E2_bin_D."
+[id-274]__[var-18]__[in-0]__[MERGE-HEMATOPOIESIS-177-271]/model.aeon,18,18,TRUE,FALSE,Include,0.0,0,0.0,FALSE,E2_bin_B,"18-gene sparse network with 18 input nodes, max in-degree of 0, and without feedback loops — suitable for E2_bin_B."
+[id-275]__[var-45]__[in-5]__[MERGE-AML-PROGRESSION-100-273]/model.aeon,45,45,TRUE,FALSE,Exclude,0.0,0,0.0,FALSE,none,Excluded: too large.
+[id-276]__[var-31]__[in-0]__[GLUCAGON-AND-INSULIN-PRODUCTION]/model.aeon,31,31,TRUE,FALSE,Include,0.0,0,0.0,FALSE,E2_bin_D,"31-gene sparse network with 31 input nodes, max in-degree of 0, and without feedback loops — suitable for E2_bin_D."
+[id-277]__[var-158]__[in-7]__[HYPOXIA-AND-MECHANOSENSING-IN-METASTASIS]/model.aeon,165,7,TRUE,FALSE,Exclude,0.0279,14,4.58,TRUE,none,Excluded: too large.
+[id-278]__[var-20]__[in-1]__[STOCHASTICITY-IN-HEMATOPOIESIS]/model.aeon,20,20,TRUE,FALSE,Include,0.0,0,0.0,FALSE,E2_bin_B,"20-gene sparse network with 20 input nodes, max in-degree of 0, and without feedback loops — suitable for E2_bin_B."
+[id-279]__[var-22]__[in-2]__[EMT-HEDGEHOG-SIGNALING]/model.aeon,22,22,TRUE,FALSE,Include,0.0,0,0.0,FALSE,E2_bin_C,"22-gene sparse network with 22 input nodes, max in-degree of 0, and without feedback loops — suitable for E2_bin_C."
+[id-280]__[var-169]__[in-7]__[SHH-SIGNALING-EMT-REGULATION]/model.aeon,176,7,TRUE,FALSE,Exclude,0.0254,15,4.44,TRUE,none,Excluded: too large.
+[id-281]__[var-12]__[in-0]__[EMT-SWITCH]/model.aeon,12,12,TRUE,FALSE,Include,0.0,0,0.0,FALSE,E2_bin_B,"12-gene sparse network with 12 input nodes, max in-degree of 0, and without feedback loops — suitable for E2_bin_B."
+[id-282]__[var-132]__[in-4]__[EMT-MECHANOSENSING]/model.aeon,136,4,TRUE,FALSE,Exclude,0.0309,11,4.17,TRUE,none,Excluded: too large.
+[id-283]__[var-144]__[in-6]__[EMT-MECHANOSENSING-TGFB]/model.aeon,150,6,TRUE,FALSE,Exclude,0.0281,11,4.18,TRUE,none,Excluded: too large.
+[id-284]__[var-117]__[in-4]__[ANCHORAGE-DEPENDENCE-PROLIFERATION]/model.aeon,121,4,TRUE,FALSE,Exclude,0.0338,10,4.06,TRUE,none,Excluded: too large.
+[id-285]__[var-128]__[in-5]__[MITOCHONDRIAL-DISFUNCTION]/model.aeon,133,5,TRUE,FALSE,Exclude,0.0391,14,5.16,TRUE,none,Excluded: too large.

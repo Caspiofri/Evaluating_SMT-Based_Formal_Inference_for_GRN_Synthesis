@@ -1,0 +1,467 @@
+model numbaring in vm,model name,loaded,Satisfiable,required,disallowed,interactions,notes
+0,id-021_var-14_in-3.rein,to do,,,,,
+1,FullABN.rein,to do,,,,,
+2,Pearson792With23SpecificationsLegacy.rein,SKIP_TOO_LARGE,,,,,
+3,practicemodel.rein,SKIP_NO_EXPERIMENTS,,,,,
+4,practicemodel10.rein,17,no solution,,,,
+5,practicemodel11.rein,17,no solution,,,,
+6,practicemodel12.rein,17,no solution,,,,
+7,practicemodel13.rein,17,no solution,,,,
+8,practicemodel14.rein,17,no solution,,,,
+9,practicemodel15.rein,17,no solution,,,,
+10,practicemodel16.rein,17,no solution,,,,
+11,practicemodel17.rein,34,found,0,0,,
+12,practicemodel18.rein,17,found,0,0,,
+13,practicemodel19.rein,17,found,0,0,,
+14,practicemodel20.rein,"RE:IN(2,17):error : parsing failed at line 2, column 17: parse error",,,,,
+15,practicemodel21.rein,"RE:IN(8,18):error : parsing failed at line 8, column 18: parse error",,,,,
+16,practicemodel22.rein,7,found,0,0,,
+17,practicemodel23.rein,7,no,,,,
+18,practicemodel24.rein,7,no,,,,
+19,practicemodel25.rein,7,no,,,,
+20,practicemodel26.rein,7,no,,,,
+21,practicemodel27.rein,7,no,,,,
+22,practicemodel28.rein,7,found,0,0,,
+23,practicemodel29.rein,7,no,,,,
+24,practicemodel3.rein,8,found,0,0,,
+25,practicemodel30.rein,7,found,0,0,,
+26,practicemodel31.rein,7,found,0,0,,
+27,practicemodel32-2.rein,7,found,0,0,,
+28,practicemodel32-3.rein,7,found,0,0,,
+29,practicemodel32-4.rein,7,found,0,0,,
+30,practicemodel32.rein,7,found,0,0,,
+31,practicemodel33.rein,"ERROR: RE:IN(79,1):error : parsing failed at line 79, column 1: parse error",,,,,
+32,practicemodel34.rein,"ERROR: RE:IN(79,1):error : parsing failed at line 79, column 1: parse error",,,,,
+33,practicemodel35.rein,"ERROR: RE:IN(163,1):error : parsing failed at line 163, column 1: parse error",,,,,
+34,practicemodel36.rein,7,ERROR: The given key was not present in the dictionary.,,,,
+35,practicemodel37.rein,7,found,0,0,,
+36,practicemodel38.rein,"ERROR: RE:IN(164,1):error : parsing failed at line 164, column 1: parse error",,,,,
+37,practicemodel39.rein,7,ERROR: The given key was not present in the dictionary.,,,,
+38,practicemodel4.rein,8,found,0,0,,
+39,practicemodel40.rein,7,found,0,0,,
+40,practicemodel41.rein,7,found,0,0,,
+41,practicemodel42.rein,7,found,0,0,,
+42,practicemodel43.rein,7,ERROR: The given key was not present in the dictionary.,,,,
+43,practicemodel44.rein,7,found,0,0,,
+44,practicemodel45.rein,7,found,0,1,DIS: green -> green (+),
+45,practicemodel46.rein,7,found,0,0,,
+46,practicemodel47.rein,7,no,,,,
+47,practicemodel48.rein,7,no,,,,
+48,practicemodel49.rein,7,found,0,0,,
+49,practicemodel50.rein,7,found,0,0,,
+50,practicemodel51.rein,7,found,0,0,,
+51,practicemodel52.rein,7,found,0,0,,
+52,practicemodel53.rein,7,no,,,,
+53,practicemodel54.rein,7,found,1,0,REQ: blue -> blue (-),
+54,practicemodel55.rein,7,found,0,0,,
+55,practicemodel56.rein,7,no,,,,
+56,practicemodel57.rein,7,found,0,0,,
+57,practicemodel58.rein,7,found,0,0,,
+58,practicemodel59.rein,"ERROR: RE:IN(1,18):error : parsing failed at line 1, column 18: parse error",,,,,
+59,practicemodel6.rein,17,no solutions,,,,
+60,practicemodel60.rein,7,ERROR: The given key was not present in the dictionary.,,,,
+61,practicemodel61.rein,7,ERROR: The given key was not present in the dictionary.,,,,
+62,practicemodel62.rein,7,ERROR: The given key was not present in the dictionary.,,,,
+63,practicemodel63.rein,7,found,0,0,,
+64,practicemodel64.rein,7,found,0,0,,
+65,practicemodel7.rein,17,ERROR: The given key was not present in the dictionary.,,,,
+66,practicemodel8.rein,17,no solutions,,,,
+67,practicemodel9.rein,17,no solutions,,,,
+68,seaurchin1.rein,"ERROR: RE:IN(1,28):error : parsing failed at line 1, column 28: parse error",,,,,
+69,seaurchin10.rein,7,no solutions,,,,
+70,seaurchin11.rein,5,,,,ERROR: The given key was not present in the dictionary.,
+71,seaurchin12.rein," ERROR: RE:IN(6,6):error : parsing failed at line 6, column 6: parse error",,,,,
+72,seaurchin13.rein,"ERROR: RE:IN(6,6):error : parsing failed at line 6, column 6: parse error",,,,,
+73,seaurchin14.rein,6,found,0,0,,
+74,seaurchin15.rein,6,No solution(s) found,,,,
+75,seaurchin16.rein,6,found,0,0,,
+76,seaurchin17.rein,6,No solution(s) found,,,,
+77,seaurchin18.rein,error,,,,,
+78,seaurchin19.rein,error,,,,,
+79,seaurchin2.rein,error,,,,,
+80,seaurchin20.rein,7,,,,ERROR: The given key was not present in the dictionary.,
+81,seaurchin21.rein,5,found,0,0,,
+82,seaurchin22.rein,10,found,0,0,,
+83,seaurchin23.rein,6,found,0,0,,
+84,seaurchin3.rein,error,,,,,
+85,seaurchin4.rein,error,,,,,
+86,seaurchin5.rein,5,found,0,0,,
+87,seaurchin6.rein,5,found,0,0,,
+88,seaurchin7.rein,7,no solutions,,,,
+89,seaurchin8.rein,7,RROR: The given key was not present in the dictionary.,,,,
+90,seaurchin9.rein,7,no solutions,,,,
+91,seaurchinA1+2-1.rein,7,no solutions,,,,
+92,seaurchinA1+2-2.rein,7,no solutions,,,,
+93,seaurchinA1-1.rein,7,found,1,0, REQ: gatae -> sixhalf6 (+),
+94,seaurchina1.rein,7,no solutions,,,,
+95,seaurchina11.rein,6,no solutions,,,,
+96,seaurchina111.rein,7,no solutions,,,,
+97,seaurchina1111,6,no solutions,,,,
+98,seaurchina11111.rein,7,no solutions,,,,
+99,seaurchina111111.rein,7,found,1,0,"  REQ: gatae -> sixhalf6 (+)
+",
+100,seaurchina1111111.rein,7,found,1,0,"  REQ: gatae -> sixhalf6 (+)
+",
+101,seaurchina11111111.rein,7,found,1,0,"  REQ: gatae -> sixhalf6 (+)
+",
+102,seaurchinA2+3-1.rein,7,no solutions,,,,
+103,seaurchinA2-1.rein,6,no solutions,,,,
+104,seaurchinA2-10.rein,7,no solutions,,,,
+105,seaurchinA2-11.rein,7,found,4,3," REQ: dn -> gatae (+)
+    REQ: dn -> gcm (+)
+    REQ: gatae -> sixhalf6 (+)
+    REQ: gcm -> gatae (+)
+    DIS: dn -> dn (+)
+    DIS: gcm -> gcm (+)
+    DIS: sixhalf6 -> gcm (+)",
+106,seaurchinA2-2.rein,7,no solutions,,,,
+107,seaurchinA2-3.rein,7,no solutions,,,,
+108,seaurchinA2-4.rein,7,no solutions,,,,
+109,seaurchinA2-5.rein,7,no solutions,,,,
+110,seaurchinA2-6.rein,7,no solutions,,,,
+111,seaurchinA2-7.rein,7,no solutions,,,,
+112,seaurchinA2-8.rein,7,no solutions,,,,
+113,seaurchinA2-9.rein,7,found,4,3," REQ: dn -> gatae (+)
+    REQ: dn -> gcm (+)
+    REQ: gatae -> sixhalf6 (+)
+    REQ: gcm -> gatae (+)
+    DIS: dn -> dn (+)
+    DIS: gcm -> gcm (+)
+    DIS: sixhalf6 -> gcm (+)",
+114,seaurchina2.rein,7,no solutions,,,,
+115,seaurchina22.rein,7,no solutions,,,,
+116,seaurchina222.rein,7,no solutions,,,,
+117,seaurchina2222.rein,6,no solutions,,,,
+118,seaurchinA3-1.rein,7,found,3,1,"    REQ: dn -> gatae (+)
+    REQ: dn -> gcm (+)
+    REQ: gatae -> sixhalf6 (+)
+    DIS: dn -> dn (+)
+",
+119,seaurchinA3-2.rein,7,no solutions,,,,
+120,seaurchinA3-3.rein,7,found,1,0,"   REQ: gatae -> sixhalf6 (+)",
+121,seaurchina3.rein,7,no solutions,,,,
+122,seaurchina33.rein,7,no solutions,,,,
+123,seaurchina333.rein,7,no solutions,,,,
+124,seaurchina3333.rein,7,found,3,1," REQ: dn -> gatae (+)
+    REQ: dn -> gcm (+)
+    REQ: gatae -> sixhalf6 (+)
+    DIS: dn -> dn (+)",
+125,seaurchina33333.rein,7,no solutions,,,,
+126,seaurchina333333.rein,7,no solutions,,,,
+127,seaurchina3333333.rein,8,no solutions,,,,
+128,seaurchina33333333.rein,8,found,2,1," REQ: dn -> gatae (+)
+    REQ: dn -> gcm (+)
+    DIS: dn -> dn (+)",
+129,seaurchina333333333.rein,7,found,3,1,"   REQ: dn -> gatae (+)
+    REQ: dn -> gcm (+)
+    REQ: gatae -> sixhalf6 (+)
+    DIS: dn -> dn (+)",
+130,seaurchina3333333333.rein,7,found,3,1,"REQ: dn -> gatae (+)
+    REQ: dn -> gcm (+)
+    REQ: gatae -> sixhalf6 (+)
+    DIS: dn -> dn (+)
+",
+131,seaurchina33333333333.rein,7,no solutions,,,,
+132,seaurchina333333333333.rein,7,no solutions,,,,
+133,seaurchina4.rein,7,found,0,0,,
+134,seaurchinC1+3-1.rein,12,no solutions,,,,
+135,seaurchinC1+3-2.rein,12,no solutions,,,,
+136,seaurchinC1+3-3.rein,12,no solutions,,,,
+137,seaurchinC1-1.rein,7,"ERROR: The given key was not present in the dictionary.
+",,,,
+138,seaurchinC1-2.rein,7,"ERROR: The given key was not present in the dictionary.
+",,,,
+139,seaurchinC1-3.rein,7,"ERROR: The given key was not present in the dictionary.
+",,,,
+140,seaurchinC1-4.rein,7,"ERROR: The given key was not present in the dictionary.
+",,,,
+141,seaurchinC1-5.rein,7,no solutions,,,,
+142,seaurchinC1-6.rein,7,no solutions,,,,
+143,seaurchinC1-7.rein,8,no solutions,,,,
+144,seaurchinC1-8.rein,7,no solutions,,,,
+145,seaurchinC1-9.rein,7,found,3,0,"  REQ: alx -> dri (+)
+    REQ: dri -> sm50 (+)
+    REQ: ets -> alx (+)
+",
+146,seaurchinC2-1.rein,7,"ERROR: The given key was not present in the dictionary.
+",,,,
+147,seaurchinC2-2.rein,7,found,3,0,"   REQ: alx -> dri (+)
+    REQ: dri -> sm50 (+)
+    REQ: ets -> alx (+)",
+148,seaurchinC3-1.rein,7,"ERROR: The given key was not present in the dictionary.
+",,,,
+149,seaurchinC3-2.rein,7,"ERROR: The given key was not present in the dictionary.
+",,,,
+150,seaurchinC3-3.rein,7,no solutions,,,,
+151,seaurchinC3-4.rein,7,no solutions,,,,
+152,seaurchinC3-5.rein,7,found,3,0," REQ: alx -> dri (+)
+    REQ: dri -> sm50 (+)
+    REQ: ets -> alx (+)",
+153,seaurchinC3-6.rein,7,found,3,0,"   REQ: alx -> dri (+)
+    REQ: dri -> sm50 (+)
+    REQ: ets -> alx (+)",
+154,seaurchinC3-7.rein,7,no solutions,,,,
+155,seaurchinC3-8.rein,12,found,8,0," REQ: alx -> dri (+)
+    REQ: dnnode1 -> dnnode2 (+)
+    REQ: dnnode2 -> dnnode3 (+)
+    REQ: dnnode3 -> dnnode4 (+)
+    REQ: dnnode4 -> dnnode5 (+)
+    REQ: dnnode5 -> dngate (+)
+    REQ: dri -> sm50 (+)
+    REQ: ets -> alx (+)",
+156,seaurchinD1+2-1.rein,5,no,,,,
+157,seaurchind1-1.rein,"ERROR: RE:IN(1,46):error : parsing failed at line 1, column 46: parse error",,,,,
+158,seaurchind1-2.rein,5,found,1,0,  REQ: A -> C (+),
+159,seaurchind2-1.rein,5,found,3,0," REQ: A -> B (+)
+    REQ: A -> C (+)
+    REQ: B -> C (-)",
+160,seaurchind3-1.rein,5,ERROR: The given key was not present in the dictionary.,,,,
+161,seaurchind3-2.rein,5,no,,,,
+162,seaurchind3-3.rein,6,no,,,,
+163,seaurchind3-4.rein,5,found,2,0,"REQ: A -> B (+)
+    REQ: B -> C (-)",
+164,seaurchind4-1.rein,5,no,,,,
+165,seaurchind4-2.rein,6,no,,,,
+166,seaurchind4-3.rein,6,found,1,0,    REQ: A -> B (+),
+167,seaurchinDcombo1-1.rein,5,no,,,,
+168,seaurchine1-1.rein,"ERROR: RE:IN(1,42):error : parsing failed at line 1, column 42: parse error",,,,,
+169,seaurchine1-2.rein,6,ERROR: The given key was not present in the dictionary.,,,,
+170,seaurchine1-3.rein,6,ERROR: The given key was not present in the dictionary.,,,,
+171,seaurchine1-4.rein,6,no,,,,
+172,seaurchine1-5.rein,6,no,,,,
+173,seaurchine1-6.rein,6,no,,,,
+174,seaurchine1-7.rein,6,found,0,0,,
+175,seaurchine1-8.rein,6,no,,,,
+176,seaurchine1-9.rein,6,found,0,0,,
+177,seaurchine2-1.rein,6,ERROR: The given key was not present in the dictionary.,,,,
+178,seaurchine2-2.rein,6,ERROR: The given key was not present in the dictionary.,,,,
+179,seaurchine2-3.rein,6,no,,,,
+180,seaurchine2-4.rein,6,found,1,0,REQ: gcm -> nsmfate (+),
+181,seaurchine2-5.rein,6,found,1,0,REQ: gcm -> nsmfate (+),
+182,seaurchine3-1.rein,6,found,4,0," REQ: alx -> gcm (-)
+    REQ: alx -> skelefate (+)
+    REQ: gcm -> alx (-)
+    REQ: gcm -> nsmfate (+)",
+183,seaurchinF1+2-1.rein,10,ERROR: The given key was not present in the dictionary.,,,,
+184,seaurchinF1+2-2.rein,10,ERROR: The given key was not present in the dictionary.,,,,
+185,seaurchinF1+2-3.rein,10,no,,,,
+186,seaurchinf1-1.rein,10,no,,,,
+187,seaurchinf1-2.rein,10,no,,,,
+188,seaurchinf1-3.rein,10,found,6,0," REQ: ets -> alx (+)
+    REQ: ets -> tbr (+)
+    REQ: hesc -> alx (-)
+    REQ: hesc -> ets (-)
+    REQ: hesc -> tbr (-)
+    REQ: pmar -> hesc (-)",
+189,seaurchinf1-4.rein,10,found,0,0,,
+190,seaurchinf2-1.rein,10,found,0,5,"  DIS: ets -> alx (+)
+    DIS: hesc -> alx (-)
+    DIS: hesc -> ets (-)
+    DIS: matinput -> pmar (+)
+    DIS: matubi -> ets (+)",
+191,seaurchinf2-2.rein,10,found,0,0,,
+192,seaurhcine1-9.rein,6,found,0,0,,
+193,simplemodel1.rein,6,found,0,0,,
+194,simplemodel10.rein,4,found,0,2,"  DIS: green -> blue (-)
+    DIS: red -> blue (-)",
+195,simplemodel11.rein,4,found,0,0,,
+196,simplemodel12-1.rein,4,found,0,0,,
+197,simplemodel12-2.rein,4,no,,,,
+198,simplemodel12-3.rein,4,no,,,,
+199,simplemodel12-4.rein,4,ERROR: The given key was not present in the dictionary.,,,,
+200,simplemodel12-5.rein,4,ERROR: The given key was not present in the dictionary.,,,,
+201,simplemodel12.rein,4,found,0,0,,
+202,simplemodel13.rein,4,no,,,,
+203,simplemodel14.rein,4,no,,,,
+204,simplemodel15.rein,4,found,0,2,"  DIS: green -> blue (-)
+    DIS: red -> blue (-)",
+205,simplemodel16.rein,4,no,,,,
+206,simplemodel17.rein,4,no,,,,
+207,simplemodel18.rein,4,no,,,,
+208,simplemodel19.rein,4,no,,,,
+209,simplemodel2.rein,"ERROR: RE:IN(2,13):error : parsing failed at line 2, column 13: parse error",,,,,
+210,simplemodel20.rein,4,found,0,2,"  DIS: green -> blue (-)
+    DIS: red -> blue (-)",
+211,simplemodel21.rein,4,no,,,,
+212,simplemodel22.rein,4,no,,,,
+213,simplemodel23.rein,4,no,,,,
+214,simplemodel24.rein,4,found,0,0,,
+215,simplemodel25.rein,4,no,,,,
+216,simplemodel26.rein,4,no,,,,
+217,simplemodel27.rein,4,no,,,,
+218,simplemodel28.rein,4,no,,,,
+219,simplemodel29.rein,4,no,,,,
+220,simplemodel3.rein,4,found,0,0,,
+221,simplemodel30.rein,4,found,0,0,,
+222,simplemodel31.rein,4,found,0,0,,
+223,simplemodel32.rein,4,found,0,0,,
+224,simplemodel33.rein,4,found,0,0,,
+225,simplemodel34.rein,4,found,0,0,,
+226,simplemodel35.rein,4,found,0,0,,
+227,simplemodel4.rein,4,found,0,0,,
+228,simplemodel5.rein,4,found,0,0,,
+229,simplemodel6.rein,4,found,0,0,,
+230,simplemodel7.rein,4,found,0,2," DIS: blue -> red (-)
+    DIS: green -> red (+)",
+231,simplemodel8.rein,4,found,0,0,,
+232,simplemodel9.rein,4,found,0,2,"DIS: green -> blue (-)
+    DIS: red -> blue (-)",
+233,seaurchinA1-1.rein,7,found,1,0,REQ: gatae -> sixhalf6 (+),
+234,seaurchinA2-11.rein,7,found,4,5,"  REQ: dn -> gatae (+)
+    REQ: dn -> gcm (+)
+    REQ: gatae -> sixhalf6 (+)
+    REQ: gcm -> gatae (+)
+    DIS: dn -> dn (+)
+    DIS: gcm -> gcm (+)
+    DIS: sixhalf6 -> gcm (+)",
+235,seaurchinA3-1.rein,7,found,3,1," REQ: dn -> gatae (+)
+    REQ: dn -> gcm (+)
+    REQ: gatae -> sixhalf6 (+)
+    DIS: dn -> dn (+)",
+236,seaurchinC1-9.rein,7,found,3,0," REQ: alx -> dri (+)
+    REQ: dri -> sm50 (+)
+    REQ: ets -> alx (+)",
+237,seaurchinC2-2.rein,7,found,3,0,"REQ: alx -> dri (+)
+    REQ: dri -> sm50 (+)
+    REQ: ets -> alx (+)",
+238,seaurchinC3-5.rein,7,found,3,0,"REQ: alx -> dri (+)
+    REQ: dri -> sm50 (+)
+    REQ: ets -> alx (+)",
+239,seaurchinC3-7.rein,7,no,,,,
+240,seaurchinC3-8.rein,12,found,8,0,"  REQ: alx -> dri (+)
+    REQ: dnnode1 -> dnnode2 (+)
+    REQ: dnnode2 -> dnnode3 (+)
+    REQ: dnnode3 -> dnnode4 (+)
+    REQ: dnnode4 -> dnnode5 (+)
+    REQ: dnnode5 -> dngate (+)
+    REQ: dri -> sm50 (+)
+    REQ: ets -> alx (+)",
+241,seaurchind1-2.rein,5,found,1,0,A -> C (+),
+242,seaurchind2-1.rein,5,found,3,0,"   REQ: A -> B (+)
+    REQ: A -> C (+)
+    REQ: B -> C (-)",
+243,seaurchine1-7.rein,6,found,0,0,,
+244,seaurchine1-9.rein,6,found,0,0,,
+245,seaurchine2-5.rein,6,found,1,0,REQ: gcm -> nsmfate (+),
+246,seaurchine3-1.rein,6,found,4,0," REQ: alx -> gcm (-)
+    REQ: alx -> skelefate (+)
+    REQ: gcm -> alx (-)
+    REQ: gcm -> nsmfate (+)",
+247,seaurchinf1-3.rein,10,found,6,0," REQ: ets -> alx (+)
+    REQ: ets -> tbr (+)
+    REQ: hesc -> alx (-)
+    REQ: hesc -> ets (-)
+    REQ: hesc -> tbr (-)
+    REQ: pmar -> hesc (-)",
+248,seaurchinf2-1.rein,10,found,0,5,"  DIS: ets -> alx (+)
+    DIS: hesc -> alx (-)
+    DIS: hesc -> ets (-)
+    DIS: matinput -> pmar (+)
+    DIS: matubi -> ets (+)",
+249,HerrmannModel.rein,39,no,,,,
+250,HerrmannPlusMissingOptionalInteractions.rein,skipping - too large,,,,,
+251,KrumsiekNetwork.rein,30,found,15,2,"  REQ: CEBPa -> CEBPa (+)
+    REQ: CEBPa -> Gfi1 (+)
+    REQ: EKLF -> Fli1 (-)
+    REQ: EgrNab -> Gfi1 (-)
+    REQ: Fli1 -> EKLF (-)
+    REQ: GATA1 -> EKLF (+)
+    REQ: GATA1 -> FOG1 (+)
+    REQ: GATA1 -> Fli1 (+)
+    REQ: GATA1 -> GATA1 (+)
+    REQ: GATA1 -> SCL (+)
+    REQ: GATA2 -> GATA1 (+)
+    REQ: GATA2 -> GATA2 (+)
+    REQ: Gfi1 -> cjun (-)
+    REQ: PU1 -> GATA2 (-)
+    REQ: PU1 -> cjun (+)
+    DIS: FOG1 -> GATA2 (-)
+    DIS: GATA1 -> GATA2 (-)",
+252,CellCycleInBuddingYeast.rein,31,found,13,0,"  REQ: Cdc20 -> Cdh1 (+)
+    REQ: CellSize -> CellSize (-)
+    REQ: CellSize -> Cln3 (+)
+    REQ: Clb12 -> MBF (-)
+    REQ: Clb12 -> SBF (-)
+    REQ: Clb56 -> Mcm1 (+)
+    REQ: Cln12 -> Cdh1 (-)
+    REQ: Cln12 -> Sic1 (-)
+    REQ: Cln3 -> MBF (+)
+    REQ: Cln3 -> SBF (+)
+    REQ: MBF -> Clb56 (+)
+    REQ: SBF -> Cln12 (+)
+    REQ: Sic1 -> Clb56 (-)",
+253,LiYeastModel.rein,31,found,13,0," REQ: Cdc20 -> Cdh1 (+)
+    REQ: CellSize -> CellSize (-)
+    REQ: CellSize -> Cln3 (+)
+    REQ: Clb12 -> MBF (-)
+    REQ: Clb12 -> SBF (-)
+    REQ: Clb56 -> Mcm1 (+)
+    REQ: Cln12 -> Cdh1 (-)
+    REQ: Cln12 -> Sic1 (-)
+    REQ: Cln3 -> MBF (+)
+    REQ: Cln3 -> SBF (+)
+    REQ: MBF -> Clb56 (+)
+    REQ: SBF -> Cln12 (+)
+    REQ: Sic1 -> Clb56 (-)",
+254,109_5_0_N5.rein,,,,,,
+255,id-029_var-9_in-2.rein,,,,,,
+256,id-052_var-23_in-8.rein,,,,,,
+257,id-057_var-15_in-0.rein,,,,,,
+258,id-058_var-14_in-0.rein,,,,,,
+259,model_N5_K2.rein,,,,,,
+260,Klf4SkdPluripotencyMaintained2iLif.rein,SKIP_TOO_LARGE,,,,,
+261,Klf4SkdPluripotencyNotMaintained2iLif.rein,SKIP_TOO_LARGE,,,,,
+262,Cdc20KDG1ToSPathSuccessful.rein,SKIP_TOO_LARGE,,,,,
+263,Cdc20KDG1ToSPathUnsuccessful.rein,SKIP_TOO_LARGE,,,,,
+264,Cdh1KDG1ToSPathSuccessful.rein,SKIP_TOO_LARGE,,,,,
+265,Cdh1KDG1ToSPathUnsuccessful.rein,SKIP_TOO_LARGE,,,,,
+266,Clb12KDG1ToSPathSuccessful.rein,SKIP_TOO_LARGE,,,,,
+267,Clb12KDG1ToSPathUnsuccessful.rein,SKIP_TOO_LARGE,,,,,
+268,Clb56KDG1ToSPathSuccessful.rein,SKIP_TOO_LARGE,,,,,
+269,Clb56KDG1ToSPathUnsuccessful.rein,SKIP_TOO_LARGE,,,,,
+270,Cln12KDG1ToSPathSuccessful.rein,SKIP_TOO_LARGE,,,,,
+271,Cln12KDG1ToSPathUnsuccessful.rein,SKIP_TOO_LARGE,,,,,
+272,Cln3KDG1ToSPathSuccessful.rein,SKIP_TOO_LARGE,,,,,
+273,Cln3KDG1ToSPathUnsuccessful.rein,SKIP_TOO_LARGE,,,,,
+274,MBFKDG1ToSPathSuccessful.rein,SKIP_TOO_LARGE,,,,,
+275,MBFKDG1ToSPathUnsuccessful.rein,SKIP_TOO_LARGE,,,,,
+276,Mcm1KDG1ToSPathSuccessful.rein,SKIP_TOO_LARGE,,,,,
+277,Mcm1KDG1ToSPathUnsuccessful.rein,SKIP_TOO_LARGE,,,,,
+278,SBFKDG1ToSPathSuccessful.rein,SKIP_TOO_LARGE,,,,,
+279,SBFKDG1ToSPathUnsuccessful.rein,SKIP_TOO_LARGE,,,,,
+280,Sic1KDG1ToSPathSuccessful.rein,SKIP_TOO_LARGE,,,,,
+281,Sic1KDG1ToSPathUnsuccessful.rein,SKIP_TOO_LARGE,,,,,
+282,Swi5KDG1ToSPathSuccessful.rein,SKIP_TOO_LARGE,,,,,
+283,Swi5KDG1ToSPathUnsuccessful.rein,SKIP_TOO_LARGE,,,,,
+284,095_9_1_level_A_sparse.rein,27,found,0,0,,
+285,095_9_1_level_B_medium.rein,27,found,0,0,,
+285,095_9_1_level_C_dense.rein,27,found,0,0,,
+285,185_12_3_level_A_sparse.rein,32,found,0,0,,
+285,185_12_3_level_B_medium.rein,34,found,0,6,"  DIS: v_DMRT1_b1 -> v_FOXL2 (-)
+    DIS: v_DMRT1_b1 -> v_SOX9 (+)
+    DIS: v_ESTRO -> v_FOXL2 (+)
+    DIS: v_HEMGN -> v_DMRT1_b1 (+)
+    DIS: v_Z1 -> v_DMRT1_b1 (+)
+    DIS: v_Z2 -> v_DMRT1_b1 (+)",
+285,185_12_3_level_B3_every3.rein,34,found,0,6,"  DIS: v_DMRT1_b1 -> v_FOXL2 (-)
+    DIS: v_DMRT1_b1 -> v_SOX9 (+)
+    DIS: v_ESTRO -> v_FOXL2 (+)
+    DIS: v_HEMGN -> v_DMRT1_b1 (+)
+    DIS: v_Z1 -> v_DMRT1_b1 (+)
+    DIS: v_Z2 -> v_DMRT1_b1 (+)",
+285,185_12_3_level_Bplus_every2.rein,34,no solutions,,,,
+285,185_12_3_level_C_dense.rein,34,no solutions,,,,
+285,088_level_A_sparse,11,found,0,0,,
+285,088_level_B_medium,11,found,0,0,,
+285,088_level_C_dense,11,found,0,0,,
+285,186_7_3_level_B_medium,25,found,0,3,"  DIS: v_DMRT1_b1 -> v_DMRT1_b1 (+)
+    DIS: v_DMRT1_b1 -> v_SOX9 (+)
+    DIS: v_HEMGN -> v_DMRT1_b1 (+)
+",
+285,182_12_2_level_B_medium,59,found,0,6,"  DIS: v_Cdh1 -> v_CycA (-)
+    DIS: v_Cdh1 -> v_Skp2 (-)
+    DIS: v_Skp2 -> v_Cdh1 (-)
+    DIS: v_p27_1_b1 -> v_Cdh1 (+)
+    DIS: v_p27_2 -> v_Cdh1 (+)
+    DIS: v_p27_2 -> v_E2F (+)",
+285,110_9_0_level_B_medium.rein,12,found,0,0,,
