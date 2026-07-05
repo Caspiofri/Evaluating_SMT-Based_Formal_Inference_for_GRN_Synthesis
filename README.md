@@ -74,6 +74,14 @@ thesis. Full series results are tabulated in the thesis appendix.
 
 ## Key Findings
 
+### Evaluating Inference Performance
+
+1. **Successful Network Reconstruction**: The pipeline achieved a 100% success rate in identifying ground-truth configurations using $N=5$ independent observations. This demonstrates significant success in consistently recovering correct network structures from synthetic biological data.
+
+2. **Expressiveness Limitations**: Increasing data volume to $N=10$ observations revealed that the engine is not suited for models with **complex** update functions. The additional data exposed that RE:IN’s predefined regulatory schemas cannot represent **non-monotonic** or **asymmetric** logic, leading to unsatisfiable (UNSAT) outcomes in these cases (e.g., Models 29, 97, and 171).
+
+3. **Solution Space Convergence**: Increasing data density—both in terms of experiment quantity ($N$) and temporal resolution (via $T_{mid}$ steps)—consistently reduces the number of valid solutions. This confirms that higher data density is a critical factor in narrowing the solution space and focusing it toward the ground-truth model.
+
 ### The Six Deterministic Rules
 
 The thesis formally characterises six analytic rules that predict an edge's
