@@ -1,0 +1,384 @@
+// Synchronous dynamics
+directive updates sync;
+
+// Default regulation conditions
+directive regulation legacy;
+
+v_TrpE[-+] (0..17); v_TrpR[-+] (0..17); v_Trp_b1[-+] (0..17); v_Trp_b2[-+] (0..17); v_Trpext_b1[-+] (0..17); v_Trpext_b2[-+] (0..17);
+
+v_Trpext_b1 v_Trpext_b2 positive optional;
+v_Trpext_b2 v_Trpext_b2 positive optional;
+v_Trpext_b1 v_Trp_b1 positive optional;
+v_Trp_b1 v_Trp_b1 positive optional;
+v_Trp_b2 v_Trp_b1 positive optional;
+v_TrpE v_Trp_b1 positive optional;
+v_Trpext_b1 v_Trp_b2 positive optional;
+v_Trpext_b2 v_Trp_b2 positive optional;
+v_Trp_b1 v_Trp_b2 positive optional;
+v_Trp_b1 v_TrpE negative optional;
+v_TrpR v_TrpE negative optional;
+v_Trp_b1 v_TrpR positive optional;
+v_Trp_b2 v_TrpR positive optional;
+v_Trpext_b1 v_Trpext_b1 positive optional;
+
+// =====================
+// Experiments
+// =====================
+
+// Experiment 0
+#Experiment0[0] |= $INIT0 "initial state";
+#Experiment0[0] |= $NoKnockDowns "no knockdowns";
+#Experiment0[0] |= $NoOverExpression "no overexpression";
+#Experiment0[2] |= $MID0 "mid state";
+#Experiment0[5] |= $FIN0 "final state";
+
+$INIT0 := {
+  v_TrpE = 0 and
+  v_TrpR = 0 and
+  v_Trp_b1 = 1 and
+  v_Trp_b2 = 0 and
+  v_Trpext_b1 = 0 and
+  v_Trpext_b2 = 0
+};
+
+$MID0 := {
+  v_TrpE = 1 and
+  v_TrpR = 0 and
+  v_Trp_b1 = 0 and
+  v_Trp_b2 = 0 and
+  v_Trpext_b1 = 0 and
+  v_Trpext_b2 = 0
+};
+
+$FIN0 := {
+  v_TrpE = 0 and
+  v_TrpR = 0 and
+  v_Trp_b1 = 0 and
+  v_Trp_b2 = 0 and
+  v_Trpext_b1 = 0 and
+  v_Trpext_b2 = 0
+};
+
+// Experiment 1
+#Experiment1[0] |= $INIT1 "initial state";
+#Experiment1[0] |= $NoKnockDowns "no knockdowns";
+#Experiment1[0] |= $NoOverExpression "no overexpression";
+#Experiment1[2] |= $MID1 "mid state";
+#Experiment1[5] |= $FIN1 "final state";
+
+$INIT1 := {
+  v_TrpE = 0 and
+  v_TrpR = 0 and
+  v_Trp_b1 = 1 and
+  v_Trp_b2 = 0 and
+  v_Trpext_b1 = 0 and
+  v_Trpext_b2 = 0
+};
+
+$MID1 := {
+  v_TrpE = 1 and
+  v_TrpR = 0 and
+  v_Trp_b1 = 0 and
+  v_Trp_b2 = 0 and
+  v_Trpext_b1 = 0 and
+  v_Trpext_b2 = 0
+};
+
+$FIN1 := {
+  v_TrpE = 0 and
+  v_TrpR = 0 and
+  v_Trp_b1 = 0 and
+  v_Trp_b2 = 0 and
+  v_Trpext_b1 = 0 and
+  v_Trpext_b2 = 0
+};
+
+// Experiment 2
+#Experiment2[0] |= $INIT2 "initial state";
+#Experiment2[0] |= $NoKnockDowns "no knockdowns";
+#Experiment2[0] |= $NoOverExpression "no overexpression";
+#Experiment2[2] |= $MID2 "mid state";
+#Experiment2[5] |= $FIN2 "final state";
+
+$INIT2 := {
+  v_TrpE = 0 and
+  v_TrpR = 0 and
+  v_Trp_b1 = 0 and
+  v_Trp_b2 = 0 and
+  v_Trpext_b1 = 1 and
+  v_Trpext_b2 = 0
+};
+
+$MID2 := {
+  v_TrpE = 0 and
+  v_TrpR = 0 and
+  v_Trp_b1 = 1 and
+  v_Trp_b2 = 0 and
+  v_Trpext_b1 = 1 and
+  v_Trpext_b2 = 0
+};
+
+$FIN2 := {
+  v_TrpE = 0 and
+  v_TrpR = 0 and
+  v_Trp_b1 = 1 and
+  v_Trp_b2 = 0 and
+  v_Trpext_b1 = 1 and
+  v_Trpext_b2 = 0
+};
+
+// Experiment 3
+#Experiment3[0] |= $INIT3 "initial state";
+#Experiment3[0] |= $NoKnockDowns "no knockdowns";
+#Experiment3[0] |= $NoOverExpression "no overexpression";
+#Experiment3[2] |= $MID3 "mid state";
+#Experiment3[5] |= $FIN3 "final state";
+
+$INIT3 := {
+  v_TrpE = 1 and
+  v_TrpR = 1 and
+  v_Trp_b1 = 0 and
+  v_Trp_b2 = 0 and
+  v_Trpext_b1 = 1 and
+  v_Trpext_b2 = 1
+};
+
+$MID3 := {
+  v_TrpE = 0 and
+  v_TrpR = 0 and
+  v_Trp_b1 = 1 and
+  v_Trp_b2 = 1 and
+  v_Trpext_b1 = 1 and
+  v_Trpext_b2 = 1
+};
+
+$FIN3 := {
+  v_TrpE = 0 and
+  v_TrpR = 1 and
+  v_Trp_b1 = 1 and
+  v_Trp_b2 = 1 and
+  v_Trpext_b1 = 1 and
+  v_Trpext_b2 = 1
+};
+
+// Experiment 4
+#Experiment4[0] |= $INIT4 "initial state";
+#Experiment4[0] |= $NoKnockDowns "no knockdowns";
+#Experiment4[0] |= $NoOverExpression "no overexpression";
+#Experiment4[2] |= $MID4 "mid state";
+#Experiment4[5] |= $FIN4 "final state";
+
+$INIT4 := {
+  v_TrpE = 1 and
+  v_TrpR = 0 and
+  v_Trp_b1 = 0 and
+  v_Trp_b2 = 1 and
+  v_Trpext_b1 = 0 and
+  v_Trpext_b2 = 0
+};
+
+$MID4 := {
+  v_TrpE = 0 and
+  v_TrpR = 0 and
+  v_Trp_b1 = 1 and
+  v_Trp_b2 = 0 and
+  v_Trpext_b1 = 0 and
+  v_Trpext_b2 = 0
+};
+
+$FIN4 := {
+  v_TrpE = 1 and
+  v_TrpR = 0 and
+  v_Trp_b1 = 1 and
+  v_Trp_b2 = 0 and
+  v_Trpext_b1 = 0 and
+  v_Trpext_b2 = 0
+};
+
+// Experiment 5
+#Experiment5[0] |= $INIT5 "initial state";
+#Experiment5[0] |= $NoKnockDowns "no knockdowns";
+#Experiment5[0] |= $NoOverExpression "no overexpression";
+#Experiment5[2] |= $MID5 "mid state";
+#Experiment5[5] |= $FIN5 "final state";
+
+$INIT5 := {
+  v_TrpE = 1 and
+  v_TrpR = 0 and
+  v_Trp_b1 = 1 and
+  v_Trp_b2 = 1 and
+  v_Trpext_b1 = 1 and
+  v_Trpext_b2 = 0
+};
+
+$MID5 := {
+  v_TrpE = 0 and
+  v_TrpR = 0 and
+  v_Trp_b1 = 1 and
+  v_Trp_b2 = 0 and
+  v_Trpext_b1 = 1 and
+  v_Trpext_b2 = 0
+};
+
+$FIN5 := {
+  v_TrpE = 0 and
+  v_TrpR = 0 and
+  v_Trp_b1 = 1 and
+  v_Trp_b2 = 0 and
+  v_Trpext_b1 = 1 and
+  v_Trpext_b2 = 0
+};
+
+// Experiment 6
+#Experiment6[0] |= $INIT6 "initial state";
+#Experiment6[0] |= $NoKnockDowns "no knockdowns";
+#Experiment6[0] |= $NoOverExpression "no overexpression";
+#Experiment6[2] |= $MID6 "mid state";
+#Experiment6[5] |= $FIN6 "final state";
+
+$INIT6 := {
+  v_TrpE = 1 and
+  v_TrpR = 0 and
+  v_Trp_b1 = 1 and
+  v_Trp_b2 = 0 and
+  v_Trpext_b1 = 1 and
+  v_Trpext_b2 = 1
+};
+
+$MID6 := {
+  v_TrpE = 0 and
+  v_TrpR = 1 and
+  v_Trp_b1 = 1 and
+  v_Trp_b2 = 1 and
+  v_Trpext_b1 = 1 and
+  v_Trpext_b2 = 1
+};
+
+$FIN6 := {
+  v_TrpE = 0 and
+  v_TrpR = 1 and
+  v_Trp_b1 = 1 and
+  v_Trp_b2 = 1 and
+  v_Trpext_b1 = 1 and
+  v_Trpext_b2 = 1
+};
+
+// Experiment 7
+#Experiment7[0] |= $INIT7 "initial state";
+#Experiment7[0] |= $NoKnockDowns "no knockdowns";
+#Experiment7[0] |= $NoOverExpression "no overexpression";
+#Experiment7[2] |= $MID7 "mid state";
+#Experiment7[5] |= $FIN7 "final state";
+
+$INIT7 := {
+  v_TrpE = 0 and
+  v_TrpR = 0 and
+  v_Trp_b1 = 0 and
+  v_Trp_b2 = 0 and
+  v_Trpext_b1 = 1 and
+  v_Trpext_b2 = 0
+};
+
+$MID7 := {
+  v_TrpE = 0 and
+  v_TrpR = 0 and
+  v_Trp_b1 = 1 and
+  v_Trp_b2 = 0 and
+  v_Trpext_b1 = 1 and
+  v_Trpext_b2 = 0
+};
+
+$FIN7 := {
+  v_TrpE = 0 and
+  v_TrpR = 0 and
+  v_Trp_b1 = 1 and
+  v_Trp_b2 = 0 and
+  v_Trpext_b1 = 1 and
+  v_Trpext_b2 = 0
+};
+
+// Experiment 8
+#Experiment8[0] |= $INIT8 "initial state";
+#Experiment8[0] |= $NoKnockDowns "no knockdowns";
+#Experiment8[0] |= $NoOverExpression "no overexpression";
+#Experiment8[2] |= $MID8 "mid state";
+#Experiment8[5] |= $FIN8 "final state";
+
+$INIT8 := {
+  v_TrpE = 0 and
+  v_TrpR = 0 and
+  v_Trp_b1 = 1 and
+  v_Trp_b2 = 1 and
+  v_Trpext_b1 = 1 and
+  v_Trpext_b2 = 1
+};
+
+$MID8 := {
+  v_TrpE = 0 and
+  v_TrpR = 1 and
+  v_Trp_b1 = 1 and
+  v_Trp_b2 = 1 and
+  v_Trpext_b1 = 1 and
+  v_Trpext_b2 = 1
+};
+
+$FIN8 := {
+  v_TrpE = 0 and
+  v_TrpR = 1 and
+  v_Trp_b1 = 1 and
+  v_Trp_b2 = 1 and
+  v_Trpext_b1 = 1 and
+  v_Trpext_b2 = 1
+};
+
+// Experiment 9
+#Experiment9[0] |= $INIT9 "initial state";
+#Experiment9[0] |= $NoKnockDowns "no knockdowns";
+#Experiment9[0] |= $NoOverExpression "no overexpression";
+#Experiment9[2] |= $MID9 "mid state";
+#Experiment9[5] |= $FIN9 "final state";
+
+$INIT9 := {
+  v_TrpE = 0 and
+  v_TrpR = 1 and
+  v_Trp_b1 = 1 and
+  v_Trp_b2 = 0 and
+  v_Trpext_b1 = 1 and
+  v_Trpext_b2 = 0
+};
+
+$MID9 := {
+  v_TrpE = 0 and
+  v_TrpR = 0 and
+  v_Trp_b1 = 1 and
+  v_Trp_b2 = 0 and
+  v_Trpext_b1 = 1 and
+  v_Trpext_b2 = 0
+};
+
+$FIN9 := {
+  v_TrpE = 0 and
+  v_TrpR = 0 and
+  v_Trp_b1 = 1 and
+  v_Trp_b2 = 0 and
+  v_Trpext_b1 = 1 and
+  v_Trpext_b2 = 0
+};
+
+$NoKnockDowns := {
+  KO(v_TrpE) = 0 and
+  KO(v_TrpR) = 0 and
+  KO(v_Trp_b1) = 0 and
+  KO(v_Trp_b2) = 0 and
+  KO(v_Trpext_b1) = 0 and
+  KO(v_Trpext_b2) = 0
+};
+
+$NoOverExpression := {
+  FE(v_TrpE) = 0 and
+  FE(v_TrpR) = 0 and
+  FE(v_Trp_b1) = 0 and
+  FE(v_Trp_b2) = 0 and
+  FE(v_Trpext_b1) = 0 and
+  FE(v_Trpext_b2) = 0
+};
